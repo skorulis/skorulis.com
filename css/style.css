@@ -1,0 +1,142 @@
+/*
+ * Off White #E5E5E5
+ * Light grey #98999e
+ * Pale red #d25843
+ * Dark red #893a2c
+ * Pale blue #90b8c4
+ * pale yellow #fac223 
+ * pale green #afb321
+ *
+*/
+
+
+/*
+html, body {
+    margin: 20px;
+    padding-top: 10px;
+    background: #E5E5E5;
+}
+*/
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.container .credit {
+  margin: 20px 0;
+}
+
+.main-content {
+	margin-top: 80px;
+	padding-bottom:12px;
+}
+
+.navbar-brand {
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.nav li a {
+	font-weight:bold;
+	line-height: 30px;
+	color:#555;
+	font-size:13pt;
+	border-radius: 0px;
+}
+
+.nav li.active > a {
+	background-color:#90b8c4;
+	color:#FFF;
+}
+
+.nav li.active > a:hover{
+	background-color:#893a2c;
+	color:#FFF;
+}
+
+.nav li.active > a:focus{
+	background-color:#893a2c;
+	color:#FFF;
+}
+
+.navbar {
+	background: rgba(229, 229, 229, 0.8); 
+	background-image: none;
+	color: #FFFFFF;
+    background-repeat: no-repeat;
+    border-width:1px;
+    border-color: #fac223;
+}
+
+.container {
+	margin-left: 10px;
+}
+
+.news-list {
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.news-item {
+	padding:8px;
+	margin-top:20px;
+	margin-bottom:20px;
+	background-color:#E5E5E5;
+	border-width:1px;
+	border-style:solid;
+    border-color: #90b8c4;
+}
+
+.flash-container {
+	background-color:#E5E5E5;
+	border-width:1px;
+	border-style:solid;
+    border-color: #90b8c4;
+    margin:12px;
+    padding:12px;
+    display:table;
+}
+
+.news-date {
+	font-size:12px;
+	color:#98999e;
+}
+
+.news-title {
+	
+}
+
+.section-title {
+	padding:10px;
+	padding-left:20px;
+	font-size:18pt;
+	background-color: #fac223;
+}
+
+.thumbnail .caption {
+	min-height:60px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.thumbnail .caption h3 {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.thumbnail {
+	border-radius:0;
+	background-image: none;
+	border-color: #90b8c4;
+	background-color:#E5E5E5;
+}
+
+.col-sm-6 {
+	padding-bottom:10px;
+	padding-left:6px;
+	padding-right:6px;
+}
