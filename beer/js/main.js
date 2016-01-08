@@ -3,6 +3,7 @@ App = Ember.Application.create();
 App.Beer = Em.Object.extend({
     name: "",
     pct: null,
+    link: null,
     desc: null,
     country: null,
     score: 0,

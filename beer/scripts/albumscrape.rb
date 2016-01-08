@@ -4,11 +4,16 @@ require 'httpclient'
 require 'json'
 
 # Need to generate a new token every hour or so
-@token = "CAACEdEose0cBAAfqBwY7ELZBPH8D9zlYOeoKdbSDK4MxmaNgH03xbG79ZCVdlmP5f9RUtymrtgC4jXCsI8ZBvfK8HbagDrtPmkC6RqVGM344XpkvPXWsiWXoavYj9PZB2QG6OZCBE4QqZAniWACtkYoklujtMNHAoKjWQZAW9fAFZAhHHs6e8PbWD1XZBxCPPv1uGSJrSU9uTE9jjAnEb7ZBzN";
-@album = "10151283325498745"
-@firstUrl = "https://graph.facebook.com/v2.2/"+@album+"?fields=photos.limit(150)&access_token="+@token;
+@token = "CAACEdEose0cBAMgoq3O6jEDRWezWggOZBv1aBp75vMsrzMyScZCPiZBLODP66pW1EaZC97jcuNPP9gGsQZBusmTHUGA62JZBUCIZCL5r5CFXwIVKjN3I97gwb9I2T6LrjFayZBRxeZAMGKGwlMmjRtQilbFJxytKEdkhpbvNyABVXXNtM5BzgwzM4JguqQlTHit4OwXxq1xUJ4QZDZD";
+@albums = ["10151283325498745","10152534310003745"]
 @allBeers = [];
 @next = ""
+
+puts @firstUrl
+
+def urlForAlbum(albumId)
+	return "https://graph.facebook.com/v2.5/"+albumId+"?access_token="+@token + "&fields=photos.limit(150)%7Bimages,created_time,name,id,link%7D"
+end
 
 def downloadChunk(url)
     #puts url
@@ -54,8 +59,9 @@ def downloadChunk(url)
 		hash = Hash[];
 		hash["name"] = lines[0].gsub("'", "\\\\'");
 		hash["desc"] = lines[1].gsub("'", "\\\\'");
-		hash["img"] = value["source"];
+		hash["img"] = value["images"][4]["source"];
 		hash["pct"] = pct;
+		hash["link"] = value["link"]
 
 		hash["score"] = score;
 		@allBeers.push(hash);
@@ -65,29 +71,36 @@ def downloadChunk(url)
 end
 
 def dumpJSToFile(filename)
-    file = File.new("../js/beer.js", "wb");
     ret = "function addAllBeers() {\n\n"
-    ret+= "var ret = [];"
+    ret+= "var ret = [];\n"
 	@allBeers.each{|beer|
 		ret+= "ret.push(App.Beer.create({\n"
 		ret+= "\tname:'"+beer["name"]+"',\n"
-		ret+= "\tpct:"+(beer["pct"]||"") +",\n"
-		ret+= "\tdesc:'"+beer["desc"]+"',\n"
-		ret+= "\tscore:"+(beer["score"]||"") +",\n"
-		ret+= "\timg:'"+beer["img"]+"'\n"
+		ret+= "\tpct:"+(beer["pct"]||"") +",\n";
+		ret+= "\tdesc:'"+beer["desc"]+"',\n";
+		ret+= "\tscore:"+(beer["score"]||"") +",\n";
+		ret+= "\timg:'"+beer["img"]+"',\n"
+		ret += "\tlink:'"+beer["link"]+"'\n"
 		ret+= "}));\n\n"
 	}
 	ret+= "return ret;\n";
 	ret+= "}\n"
+	file = File.new("../js/beer.js", "wb");
 	file.write(ret);
 
 end
 
-downloadChunk(@firstUrl);
-while @next != nil do
-	downloadChunk(@next)
-	#@next = ""
+def downloadData(albumId)
+	firstUrl = urlForAlbum(albumId)
+	downloadChunk(firstUrl);
+	while @next != nil do
+		downloadChunk(@next)
+		#@next = ""
+	end
 end
+
+downloadData(@albums[0])
+downloadData(@albums[1])
 
 dumpJSToFile("beer.js");
 
