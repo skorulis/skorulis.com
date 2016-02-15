@@ -85,7 +85,7 @@ def dumpJSToFile(filename)
 	}
 	ret+= "return ret;\n";
 	ret+= "}\n"
-	file = File.new("../js/beer.js", "wb");
+	file = File.new("js/beer.js", "wb");
 	file.write(ret);
 
 end
