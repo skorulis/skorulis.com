@@ -4,7 +4,7 @@ require 'httpclient'
 require 'json'
 
 # Need to generate a new token every hour or so
-@token = "CAACEdEose0cBAPopVNWIVWnmh7lhKc8Tg5mYYk2KZCxurHMtqZCnljTPhZAENrzcTYQoQeR9ct5jECUfneZBkWSKo79Xrg0cbdXlnZBxIt5LHxetIlNg54fMLG7J6hwz63gAZBuEVyrdO9gmCvW9rB19qYhXCoQI6vnQm1WrGrhczIPksFjJa5TUBO1ZA1FyW8SPHrJ28Su4wZDZD";
+@token = "EAACEdEose0cBAJZBPCEsZAf9MaoFZAuNkXPS5FOOBuGg1kGHic9Cfh3Au3oIj7OYvFjP2XPht9bwvXfqLOloe6WNwVt3d1uLIdCxIX6W8ChCxdGHsnTD0ZA4SY0DHL7L97Gp6Scc3UqCZCoUPDrlJLbT98zmQrd4q1mhA9eeZCswZDZD";
 @albums = ["10151283325498745","10152534310003745"]
 @allBeers = [];
 @next = ""
@@ -90,6 +90,11 @@ def dumpJSToFile(filename)
 
 end
 
+def dumpPlainJS() 
+	file = File.new("js/raw.json","wb");
+	file.write(JSON.pretty_generate(@allBeers))
+end
+
 def downloadData(albumId)
 	firstUrl = urlForAlbum(albumId)
 	downloadChunk(firstUrl);
@@ -103,5 +108,6 @@ downloadData(@albums[0])
 downloadData(@albums[1])
 
 dumpJSToFile("beer.js");
+dumpPlainJS()
 
 puts "Successfully wrote " + @allBeers.length.to_s() + " beers";

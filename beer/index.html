@@ -2,6 +2,8 @@
 <html>
 <head>
     <script type="text/javascript" src="js/jquery-1.9.0.js"></script>
+    <script type="text/javascript" src="js/jquery.unveil.js"></script>
+    
     <script type="text/javascript" src="js/handlebars.js"></script>
     <script type="text/javascript" src="js/ember.js"></script>
     <script type="text/javascript" src="js/beer.js"></script>
@@ -35,8 +37,7 @@
                 {{/if}}
 
             </p>
-            <img {{bindAttr src="beer.img"}} />
-
+            <img {{bindAttr src="beer.img"}}  />
 
         </li>
     {{/each}}
