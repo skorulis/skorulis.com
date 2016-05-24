@@ -4,7 +4,7 @@ require 'httpclient'
 require 'json'
 
 # Need to generate a new token every hour or so
-@token = "EAACEdEose0cBAJZBPCEsZAf9MaoFZAuNkXPS5FOOBuGg1kGHic9Cfh3Au3oIj7OYvFjP2XPht9bwvXfqLOloe6WNwVt3d1uLIdCxIX6W8ChCxdGHsnTD0ZA4SY0DHL7L97Gp6Scc3UqCZCoUPDrlJLbT98zmQrd4q1mhA9eeZCswZDZD";
+@token = "EAACEdEose0cBAH9IsdQCsLWzlTQ6zBng16pisvgofhRtY0ptYzrMi63Rk7FZANYafEZCHD7uhrzgfQfI9nawZCnZCpRqj8ZCRecKmseNN0EkyDEdVxEnMW9YAFZBZBxjosEdP4w4Gh0GPSe3Ve4ZCjtdXy9VLfBPrDx7lXpyYSWakAZDZD";
 @albums = ["10151283325498745","10152534310003745"]
 @allBeers = [];
 @next = ""
