@@ -4,7 +4,7 @@ require 'httpclient'
 require 'json'
 
 # Need to generate a new token every hour or so
-@token = "EAACEdEose0cBAH9IsdQCsLWzlTQ6zBng16pisvgofhRtY0ptYzrMi63Rk7FZANYafEZCHD7uhrzgfQfI9nawZCnZCpRqj8ZCRecKmseNN0EkyDEdVxEnMW9YAFZBZBxjosEdP4w4Gh0GPSe3Ve4ZCjtdXy9VLfBPrDx7lXpyYSWakAZDZD";
+@token = "EAACEdEose0cBAGifhFHQHY9YIDpBL05s2Nb6CyGIGzNwEzYHFr5sLuBtCD7wCWzkQgvXiONRZB8R6XTpbOmO6fzznNd16jNSnxLVQEx2DzA847adL3pSLRHjhdDcZBup9v1dpy7p9kZAIYkGjmKIgZA3quHFeXi41hlFgkHqAwZDZD";
 @albums = ["10151283325498745","10152534310003745"]
 @allBeers = [];
 @next = ""
@@ -13,6 +13,14 @@ puts @firstUrl
 
 def urlForAlbum(albumId)
 	return "https://graph.facebook.com/v2.5/"+albumId+"?access_token="+@token + "&fields=photos.limit(150)%7Bimages,created_time,name,id,link%7D"
+end
+
+def cleanText(s)
+	s = s.strip
+	if s[-1,1] == "."
+		s = s.slice(0,s.length-1)
+	end
+	return s
 end
 
 def downloadChunk(url)
@@ -47,7 +55,7 @@ def downloadChunk(url)
 	    end
 	    
 	    puts lines
-	    score = lines[1][/[0-9].10/]
+	    score = lines[1][/[0-9]{1,2}.10/]
 	    if score
 	        lines[1][score] = "";
 	        score = score.chop.chop.chop;
@@ -57,8 +65,8 @@ def downloadChunk(url)
 
 
 		hash = Hash[];
-		hash["name"] = lines[0].gsub("'", "\\\\'");
-		hash["desc"] = lines[1].gsub("'", "\\\\'");
+		hash["name"] = cleanText(lines[0].gsub("'", "\\\\'"));
+		hash["desc"] = cleanText(lines[1].gsub("'", "\\\\'"));
 		hash["img"] = value["images"][4]["source"];
 		hash["pct"] = pct;
 		hash["link"] = value["link"]
