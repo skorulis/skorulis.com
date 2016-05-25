@@ -15,6 +15,7 @@ extraData = Hash.new
 allBeers.each do |item|
 	d = Hash.new
 	d["untappd"] = Hash.new
+	d["untappd"]["id"] = ""
 	old = existing[item["name"]]
 	
 	if old != nil

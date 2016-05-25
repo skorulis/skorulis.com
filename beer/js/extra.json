@@ -21,17 +21,32 @@
   },
   "Amstel": {
     "untappd": {
-      "id": "72160"
+      "id": "72160",
+      "style": "Lager - Euro",
+      "IBU": 21,
+      "score": 2.83487,
+      "brewery": "Amstel Bier",
+      "country": "Netherlands"
     }
   },
   "Webster\\'s Bitter": {
     "untappd": {
-      "id": "390603"
+      "id": "390603",
+      "style": "English Bitter",
+      "IBU": 0,
+      "score": 0,
+      "brewery": "John Smith's",
+      "country": "England"
     }
   },
   "Hürlimann lager": {
     "untappd": {
-      "id": "12111"
+      "id": "12111",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 2.92621,
+      "brewery": "Feldschlösschen",
+      "country": "Switzerland"
     }
   },
   "Kronenbourg": {
@@ -164,9 +179,9 @@
       "id": "8290"
     }
   },
-  "Kestral Super lager": {
+  "Kestrel Super lager": {
     "untappd": {
-      "id": ""
+    	"id":""
     }
   },
   "Carlsberg special": {
@@ -306,7 +321,7 @@
   },
   "Isle of Arran blonde": {
     "untappd": {
-      "id": ""
+      "id": "18918"
     }
   },
   "St Edmunds": {
@@ -316,332 +331,332 @@
   },
   "Hogs Back TEA": {
     "untappd": {
-      "id": ""
+      "id": "18485"
     }
   },
   "Holsten Pils": {
     "untappd": {
-      "id": ""
+      "id": "957246"
     }
   },
   "Old Thumper": {
     "untappd": {
-      "id": ""
+      "id": "46857"
     }
   },
   "Pacifico clara": {
     "untappd": {
-      "id": ""
+      "id": "5850"
     }
   },
   "Christmas cracker": {
     "untappd": {
-      "id": ""
+      "id": "270306"
     }
   },
   "Deuchars IPA": {
     "untappd": {
-      "id": ""
+      "id": "14649"
     }
   },
   "Budweiser": {
     "untappd": {
-      "id": ""
+      "id": "3783"
     }
   },
   "Sierra Nevada pale ale": {
     "untappd": {
-      "id": ""
+      "id": "6284"
     }
   },
   "Black chocolate stout": {
     "untappd": {
-      "id": ""
+      "id": "37235"
     }
   },
-  "Miller 4": {
+  "Miller": {
     "untappd": {
-      "id": ""
+      "id": "3779"
     }
   },
   "Blue moon": {
     "untappd": {
-      "id": ""
+      "id": "3839"
     }
   },
   "Coors Light": {
     "untappd": {
-      "id": ""
+      "id": "3834"
     }
   },
   "Red pig ale": {
     "untappd": {
-      "id": ""
+      "id": "17506"
     }
   },
   "Lemongrass Saison": {
     "untappd": {
-      "id": ""
+      "id": "303112"
     }
   },
   "Coconut porter": {
     "untappd": {
-      "id": ""
+      "id": "5383"
     }
   },
   "Jeremiah Weed Root brew": {
     "untappd": {
-      "id": ""
+      "id": "94945"
     }
   },
   "Jeremiah Weed": {
     "untappd": {
-      "id": ""
+      "id": "98130"
     }
   },
   "Guinness": {
     "untappd": {
-      "id": ""
+      "id": "4473"
     }
   },
   "Gallway hooker": {
     "untappd": {
-      "id": ""
+      "id": "34640"
     }
   },
   "Harp": {
     "untappd": {
-      "id": ""
+      "id": "3948"
     }
   },
   "Five lamps": {
     "untappd": {
-      "id": ""
+      "id": "305906"
     }
   },
   "Carrig": {
     "untappd": {
-      "id": ""
+      "id": "118208"
     }
   },
   "Kilkenny": {
     "untappd": {
-      "id": ""
+      "id": "6337"
     }
   },
   "Smithwicks": {
     "untappd": {
-      "id": ""
+      "id": "13388"
     }
   },
   "Caledonia smooth": {
     "untappd": {
-      "id": ""
+      "id": "180103"
     }
   },
   "O\\'hara\\'s Irish pale ale": {
     "untappd": {
-      "id": ""
+      "id": "143851"
     }
   },
   "O\\'haras Irish red": {
     "untappd": {
-      "id": ""
+      "id": "13675"
     }
   },
   "Cyclone IPA": {
     "untappd": {
-      "id": ""
+      "id": "438052"
     }
   },
   "Brahma": {
     "untappd": {
-      "id": ""
+      "id": "75813"
     }
   },
   "Brewdog Hardcore IPA": {
     "untappd": {
-      "id": ""
+      "id": "5707"
     }
   },
-  "Punk IPA": {
+  "Brewdog Punk IPA": {
     "untappd": {
-      "id": ""
+      "id": "5702"
     }
   },
-  "Psycho": {
+  "Brewdog Cocoa Psycho": {
     "untappd": {
-      "id": ""
+      "id": "273455"
     }
   },
   "Brewdog 5am saint": {
     "untappd": {
-      "id": ""
+      "id": "6976"
     }
   },
   "Dead Pony Club": {
     "untappd": {
-      "id": ""
+      "id": "164769"
     }
   },
   "Crew IPA": {
     "untappd": {
-      "id": ""
+      "id": "162217"
     }
   },
   "Tennents": {
     "untappd": {
-      "id": ""
+      "id": "7067"
     }
   },
   "Trouble brewing golden ale": {
     "untappd": {
-      "id": ""
+      "id": "398230"
     }
   },
   "Wold top against the grain": {
     "untappd": {
-      "id": ""
+      "id": "34575"
     }
   },
   "Ginger beard": {
     "untappd": {
-      "id": ""
+      "id": "179572"
     }
   },
   "Wells banana bread beer": {
     "untappd": {
-      "id": ""
+      "id": "5839"
     }
   },
   "KEO": {
     "untappd": {
-      "id": ""
+      "id": "57951"
     }
   },
   "Mongoose": {
     "untappd": {
-      "id": ""
+      "id": "65997"
     }
   },
   "Flack Catcher": {
     "untappd": {
-      "id": ""
+      "id": "52716"
     }
   },
   "Pedigree": {
     "untappd": {
-      "id": ""
+      "id": "12892"
     }
   },
   "Fagins": {
     "untappd": {
-      "id": ""
+      "id": "1059898"
     }
   },
   "London Pride": {
     "untappd": {
-      "id": ""
+      "id": "2762"
     }
   },
   "Kent\\'s best": {
     "untappd": {
-      "id": ""
+      "id": "73954"
     }
   },
   "Peroni": {
     "untappd": {
-      "id": ""
+      "id": "55151"
     }
   },
   "Poretti": {
     "untappd": {
-      "id": ""
+      "id": "113869"
     }
   },
   "Birra moretti": {
     "untappd": {
-      "id": ""
+      "id": "6347"
     }
   },
   "Tetley smooth": {
     "untappd": {
-      "id": ""
+      "id": "986134"
     }
   },
   "Jack Frost": {
     "untappd": {
-      "id": ""
+      "id": "11995"
     }
   },
   "Staffordshire IPA": {
     "untappd": {
-      "id": ""
+      "id": "64590"
     }
   },
   "John smiths extra smooth": {
     "untappd": {
-      "id": ""
+      "id": "1009950"
     }
   },
   "Coopers Pale Ale": {
     "untappd": {
-      "id": ""
+      "id": "7884"
     }
   },
   "Coopers sparkling ale": {
     "untappd": {
-      "id": ""
+      "id": "4930"
     }
   },
   "Coopers extra stout": {
     "untappd": {
-      "id": ""
+      "id": "4933"
     }
   },
   "Coopers Lager": {
     "untappd": {
-      "id": ""
+      "id": "4929"
     }
   },
   "Resch\\'s": {
     "untappd": {
-      "id": ""
+      "id": "9871"
     }
   },
   "Little Creatures Pale Ale": {
     "untappd": {
-      "id": ""
+      "id": "8261"
     }
   },
   "James Boags": {
     "untappd": {
-      "id": ""
+      "id": "5982"
     }
   },
   "Tooheys Extra Dry": {
     "untappd": {
-      "id": ""
+      "id": "5921"
     }
   },
   "Victoria Bitter": {
     "untappd": {
-      "id": ""
+      "id": "5981"
     }
   },
   "Crown Lager": {
     "untappd": {
-      "id": ""
+      "id": "16424"
     }
   },
   "Tooheys old": {
     "untappd": {
-      "id": ""
+      "id": "6116"
     }
   },
   "Tooheys New": {
     "untappd": {
-      "id": ""
+      "id": "5922"
     }
   },
   "Hahn superdry": {
@@ -656,42 +671,42 @@
   },
   "Three sheets Pale Ale": {
     "untappd": {
-      "id": ""
+      "id": "14862"
     }
   },
   "Hite": {
     "untappd": {
-      "id": ""
+      "id": "4820"
     }
   },
   "St Helier": {
     "untappd": {
-      "id": ""
+      "id": "20485"
     }
   },
   "Cobra King": {
     "untappd": {
-      "id": ""
+      "id": "226170"
     }
   },
   "Kingfisher": {
     "untappd": {
-      "id": ""
+      "id": "17377"
     }
   },
   "Cambridgeshire Golden Ale": {
     "untappd": {
-      "id": ""
+      "id": "106002"
     }
   },
   "March of the Penguins": {
     "untappd": {
-      "id": ""
+      "id": "34067"
     }
   },
   "Nils Oscar God Lager": {
     "untappd": {
-      "id": ""
+      "id": "7816"
     }
   },
   "Star": {
@@ -701,32 +716,32 @@
   },
   "Worthingtons White Shield": {
     "untappd": {
-      "id": ""
+      "id": "15084"
     }
   },
   "British Bulldog": {
     "untappd": {
-      "id": ""
+      "id": "44784"
     }
   },
   "Newcastle Brown Ale": {
     "untappd": {
-      "id": ""
+      "id": "5856"
     }
   },
   "Sambrooks pale ale": {
     "untappd": {
-      "id": ""
+      "id": "770933"
     }
   },
   "Sambrook\\'s Brewery Junction": {
     "untappd": {
-      "id": ""
+      "id": "58665"
     }
   },
   "Duff": {
     "untappd": {
-      "id": ""
+      "id": "94107"
     }
   },
   "Novomestsy Ležák": {
@@ -736,7 +751,7 @@
   },
   "Branik": {
     "untappd": {
-      "id": ""
+      "id": "148026"
     }
   },
   "X33": {
@@ -746,27 +761,27 @@
   },
   "Oldgott": {
     "untappd": {
-      "id": ""
+      "id": "17694"
     }
   },
   "Pilsner Urquell": {
     "untappd": {
-      "id": ""
+      "id": "37936"
     }
   },
   "Budweiser Budvar": {
     "untappd": {
-      "id": ""
+      "id": "5385"
     }
   },
   "Kozel Dark": {
     "untappd": {
-      "id": ""
+      "id": "70150"
     }
   },
   "Gambrinus": {
     "untappd": {
-      "id": ""
+      "id": "46417"
     }
   },
   "Bernard": {
@@ -776,12 +791,12 @@
   },
   "Fenix": {
     "untappd": {
-      "id": ""
+      "id": "154535"
     }
   },
   "Kozel": {
     "untappd": {
-      "id": ""
+      "id": "20966"
     }
   },
   "Crakonos": {
@@ -789,29 +804,29 @@
       "id": ""
     }
   },
-  "Birell 0": {
+  "Birell": {
     "untappd": {
-      "id": ""
+      "id": "64354"
     }
   },
   "Krusovice 10": {
     "untappd": {
-      "id": ""
+      "id": "23585"
     }
   },
   "Staropramen": {
     "untappd": {
-      "id": ""
+      "id": "38700"
     }
   },
   "Krusovice musketyr": {
     "untappd": {
-      "id": ""
+      "id": "23588"
     }
   },
   "Krusovice cerne": {
     "untappd": {
-      "id": ""
+      "id": "23586"
     }
   },
   "Master": {
@@ -821,22 +836,22 @@
   },
   "Timothy Taylor Landlord": {
     "untappd": {
-      "id": ""
+      "id": "8676"
     }
   },
   "Mad Goose": {
     "untappd": {
-      "id": ""
+      "id": "6444"
     }
   },
   "Oranjeboom": {
     "untappd": {
-      "id": ""
+      "id": "7433"
     }
   },
   "Viru": {
     "untappd": {
-      "id": ""
+      "id": "52825"
     }
   },
   "Saku original": {
@@ -846,27 +861,27 @@
   },
   "Jaipur": {
     "untappd": {
-      "id": ""
+      "id": "7705"
     }
   },
   "Almaza": {
     "untappd": {
-      "id": ""
+      "id": "8484"
     }
   },
   "Fire rock": {
     "untappd": {
-      "id": ""
+      "id": "8843"
     }
   },
   "Lion lager": {
     "untappd": {
-      "id": ""
+      "id": "37408"
     }
   },
   "Sol": {
     "untappd": {
-      "id": ""
+      "id": "7457"
     }
   },
   "Arvo brew 51": {
@@ -1579,9 +1594,9 @@
       "id": ""
     }
   },
-  "Singha 5": {
+  "Singha": {
     "untappd": {
-      "id": ""
+    	"id":""
     }
   },
   "Beerlao": {
