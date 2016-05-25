@@ -1,12 +1,22 @@
 {
   "Black Sheep Ale": {
     "untappd": {
-      "id": "23059"
+      "id": "23059",
+      "style": "English Bitter",
+      "IBU": 0,
+      "score": 3.39851,
+      "brewery": "Black Sheep",
+      "country": "England"
     }
   },
   "Carlsberg": {
     "untappd": {
-      "id": "5991"
+      "id": "5991",
+      "style": "Pilsner - Other",
+      "IBU": 8,
+      "score": 2.9647,
+      "brewery": "Carlsberg Group",
+      "country": "Denmark"
     }
   },
   "Amstel": {
@@ -211,87 +221,87 @@
   },
   "Fursty Ferret": {
     "untappd": {
-      "id": ""
+      "id": "8932"
     }
   },
   "Badger Tangle Foot": {
     "untappd": {
-      "id": ""
+      "id": "29338"
     }
   },
   "Firkin fox": {
     "untappd": {
-      "id": ""
+      "id": "133348"
     }
   },
   "Badger Poacher\\'s choice": {
     "untappd": {
-      "id": ""
+      "id": "13035"
     }
   },
   "Badger blandford flyer": {
     "untappd": {
-      "id": ""
+      "id": "31806"
     }
   },
   "Badger First Gold": {
     "untappd": {
-      "id": ""
+      "id": "9722"
     }
   },
   "Abbot Ale": {
     "untappd": {
-      "id": ""
+      "id": "3478"
     }
   },
   "Bass": {
     "untappd": {
-      "id": ""
+      "id": "5872"
     }
   },
   "Lech": {
     "untappd": {
-      "id": ""
+      "id": "29306"
     }
   },
   "Tatra": {
     "untappd": {
-      "id": ""
+      "id": "21643"
     }
   },
   "Zywiec": {
     "untappd": {
-      "id": ""
+      "id": "10519"
     }
   },
   "Debowe mocne": {
     "untappd": {
-      "id": ""
+      "id": "83020"
     }
   },
   "Warka": {
     "untappd": {
-      "id": ""
+      "id": "32854"
     }
   },
   "Wojak mocny": {
     "untappd": {
-      "id": ""
+      "id": "878327"
     }
   },
   "Tyskie klasyczne": {
     "untappd": {
-      "id": ""
+      "id": "186042"
     }
   },
   "Whistable Bay organic Ale": {
     "untappd": {
-      "id": ""
+      "id": "8668"
     }
   },
   "Meantime London Lager": {
     "untappd": {
-      "id": ""
+      "id": "42347"
     }
   },
   "Isle of Arran blonde": {
