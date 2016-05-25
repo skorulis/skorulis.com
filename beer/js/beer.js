@@ -2081,15 +2081,6 @@ ret.push(App.Beer.create({
 }));
 
 ret.push(App.Beer.create({
-	name:'Abbot ale',
-	pct:5.0,
-	desc:'London pride with a bit more cigarette flavour',
-	score:5,
-	img:'https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-0/p480x480/484477_10151649178223745_1831233561_n.jpg?oh=ed52ef7f2bef1eece8b847806860a5d7&oe=57D2FD33&__gda__=1473132418_69231eddb7c35a208a923f4a878dbc67',
-	link:'https://www.facebook.com/photo.php?fbid=10151649178223745&set=a.10151283325498745.519514.578408744&type=3'
-}));
-
-ret.push(App.Beer.create({
 	name:'Wychwood brewery Goliath',
 	pct:4.2,
 	desc:'The beer to slay a mighty thirst',
@@ -2337,7 +2328,7 @@ ret.push(App.Beer.create({
 	pct:5.0,
 	desc:'Much better than efes',
 	score:7,
-	img:'https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-0/p480x480/1005742_10151798801533745_634899063_n.jpg?oh=7d18043fbc6e299c26a5fc7fa25d1fed&oe=579E589F&__gda__=1474013865_04b31207cbc75fa7e62a263ba36fe3f8',
+	img:'https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-0/p480x480/1005742_10151798801533745_634899063_n.jpg?oh=8ea21d1821b4fd9fa226f988953cbc24&oe=57C5E59F&__gda__=1474013865_cf56c2d608308183583906024df9a1d8',
 	link:'https://www.facebook.com/photo.php?fbid=10151798801533745&set=a.10151283325498745.519514.578408744&type=3'
 }));
 
@@ -5451,7 +5442,7 @@ ret.push(App.Beer.create({
 	pct:4.8,
 	desc:'Average Aldi lager',
 	score:5,
-	img:'https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-0/p480x480/10410488_10153225353563745_8285613091047049802_n.jpg?oh=ee8c6df9009d43b22daaefa051a49f32&oe=57E8079E&__gda__=1472997416_876110abc110b99670d3ad70601fa468',
+	img:'https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xft1/v/t1.0-0/p480x480/10410488_10153225353563745_8285613091047049802_n.jpg?oh=ee8c6df9009d43b22daaefa051a49f32&oe=57E8079E&__gda__=1469783773_144071e1efe1ca33e09db240db56c8de',
 	link:'https://www.facebook.com/photo.php?fbid=10153225353563745&set=a.10152534310003745.1073741825.578408744&type=3'
 }));
 

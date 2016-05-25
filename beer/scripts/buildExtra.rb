@@ -11,7 +11,6 @@ existing = JSON.parse(File.read('js/extra.json'))
 
 extraData = Hash.new
 
-
 allBeers.each do |item|
 	d = Hash.new
 	d["untappd"] = Hash.new
@@ -24,6 +23,8 @@ allBeers.each do |item|
 
 	extraData[item["name"]] = d
 end
+
+count = 0
 
 extraData.each do |item|
 	hash = item[1]["untappd"]
@@ -39,8 +40,11 @@ extraData.each do |item|
 		hash["score"] = beer["rating_score"]
 		hash["brewery"] = brewery["brewery_name"]
 		hash["country"] = brewery["country_name"]
-		
-		break
+		hash["name"] = beer["beer_name"]
+		count = count + 1
+		if count > 20
+			break
+		end
 	end
 end
 

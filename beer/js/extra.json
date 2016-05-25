@@ -51,17 +51,32 @@
   },
   "Kronenbourg": {
     "untappd": {
-      "id": "5939"
+      "id": "5939",
+      "style": "Lager - Euro",
+      "IBU": 0,
+      "score": 3.10952,
+      "brewery": "Brasseries Kronenbourg",
+      "country": "France"
     }
   },
   "Veltins": {
     "untappd": {
-      "id": "40173"
+      "id": "40173",
+      "style": "Pilsner - German",
+      "IBU": 30,
+      "score": 3.12888,
+      "brewery": "Brauerei Veltins",
+      "country": "Germany"
     }
   },
   "Samuel Smith\\'s Extra stout ": {
     "untappd": {
-      "id": "104401"
+      "id": "104401",
+      "style": "Stout - Other",
+      "IBU": 0,
+      "score": 3.59191,
+      "brewery": "Samuel Smith's Old Brewery",
+      "country": "England"
     }
   },
   "ALEXIOS": {
@@ -71,27 +86,52 @@
   },
   "Red stripe": {
     "untappd": {
-      "id": "3692"
+      "id": "3692",
+      "style": "Lager - North American Adjunct",
+      "IBU": 0,
+      "score": 3.07049,
+      "brewery": "Desnoes & Geddes",
+      "country": "Jamaica"
     }
   },
   "1892": {
     "untappd": {
-      "id": "186060"
+      "id": "186060",
+      "style": "English Bitter",
+      "IBU": 0,
+      "score": 3.04857,
+      "brewery": "Robinsons Brewery",
+      "country": "England"
     }
   },
   "Cobra": {
     "untappd": {
-      "id": "9447"
+      "id": "9447",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 2.8559,
+      "brewery": "Molson Coors (UK)",
+      "country": "England"
     }
   },
   "Green king ipa": {
     "untappd": {
-      "id": "6716"
+      "id": "6716",
+      "style": "IPA - English",
+      "IBU": 0,
+      "score": 2.87953,
+      "brewery": "Greene King",
+      "country": "England"
     }
   },
   "Grolsch": {
     "untappd": {
-      "id": "7221"
+      "id": "7221",
+      "style": "Pilsner - Other",
+      "IBU": 0,
+      "score": 3.18383,
+      "brewery": "Koninklijke Grolsch",
+      "country": "Netherlands"
     }
   },
   "Noble": {
@@ -101,102 +141,216 @@
   },
   "Yankee": {
     "untappd": {
-      "id": "25692"
+      "id": "25692",
+      "style": "Pale Ale - American",
+      "IBU": 0,
+      "score": 3.48178,
+      "brewery": "Rooster's",
+      "country": "England",
+      "name": "Yankee"
     }
   },
   "The Dog\\'s Bollocks": {
     "untappd": {
-      "id": "9006"
+      "id": "9006",
+      "style": "Golden Ale",
+      "IBU": 0,
+      "score": 3.50873,
+      "brewery": "Wychwood Brewery",
+      "country": "England",
+      "name": "The Dog's Bollocks"
     }
   },
   "Double maxim": {
     "untappd": {
-      "id": "51874"
+      "id": "51874",
+      "style": "Brown Ale - English",
+      "IBU": 0,
+      "score": 3.4727,
+      "brewery": "Maxim Brewery",
+      "country": "England",
+      "name": "Double Maxim"
     }
   },
   "Jack Black": {
     "untappd": {
-      "id": "184233"
+      "id": "184233",
+      "style": "Stout - Oatmeal",
+      "IBU": 0,
+      "score": 3.40933,
+      "brewery": "Brains",
+      "country": "Wales",
+      "name": "Jack Black"
     }
   },
   "The Rev. James": {
     "untappd": {
-      "id": "50090"
+      "id": "50090",
+      "style": "English Bitter",
+      "IBU": 0,
+      "score": 3.41355,
+      "brewery": "Brains",
+      "country": "Wales",
+      "name": "The Rev. James Original - @TheRevTweets"
     }
   },
   "Double Dragon": {
     "untappd": {
-      "id": "13412"
+      "id": "13412",
+      "style": "English Bitter",
+      "IBU": 0,
+      "score": 3.29946,
+      "brewery": "Felinfoel Brewery Co Ltd",
+      "country": "Wales",
+      "name": "Double Dragon"
     }
   },
   "Pride of Oxford": {
     "untappd": {
-      "id": "45175"
+      "id": "45175",
+      "style": "Golden Ale",
+      "IBU": 0,
+      "score": 3.32577,
+      "brewery": "Oxfordshire Ales",
+      "country": "England",
+      "name": "Pride of Oxford"
     }
   },
   "Bishops finger": {
     "untappd": {
-      "id": "2962"
+      "id": "2962",
+      "style": "Extra Special / Strong Bitter",
+      "IBU": 0,
+      "score": 3.30776,
+      "brewery": "Shepherd Neame",
+      "country": "England",
+      "name": "Bishops Finger"
     }
   },
   "Simply Dark Ale": {
     "untappd": {
-      "id": "182706"
+      "id": "182706",
+      "style": "Dark Ale",
+      "IBU": 0,
+      "score": 3.16086,
+      "brewery": "Marston's Brewery",
+      "country": "England",
+      "name": "Tesco Simply Dark Ale"
     }
   },
   "Simply Golden Ale": {
     "untappd": {
-      "id": "179597"
+      "id": "179597",
+      "style": "Golden Ale",
+      "IBU": 0,
+      "score": 3.08022,
+      "brewery": "Marston's Brewery",
+      "country": "England",
+      "name": "Tesco Simply Golden Ale"
     }
   },
   "Simply Stout": {
     "untappd": {
-      "id": "260943"
+      "id": "260943",
+      "style": "Stout - Other",
+      "IBU": 0,
+      "score": 3.13256,
+      "brewery": "Marston's Brewery",
+      "country": "England",
+      "name": "Tesco Simply Stout"
     }
   },
   "Tesco Lager": {
     "untappd": {
-      "id": "412420"
+      "id": "412420",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 2.16139,
+      "brewery": "Tesco Stores Ltd.",
+      "country": "England",
+      "name": "Tesco Lager"
     }
   },
   "Belgian Abbey Beer": {
     "untappd": {
-      "id": "31242"
+      "id": "31242",
+      "style": "Belgian Tripel",
+      "IBU": 0,
+      "score": 3.41111,
+      "brewery": "Brasserie du Bocq",
+      "country": "Belgium",
+      "name": "Tesco Finest Belgian Abbey Beer"
     }
   },
   "M&S Belgian Lager": {
     "untappd": {
-      "id": "38379"
+      "id": "38379",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 2.79673,
+      "brewery": "Brouwerij Haacht Brasserie",
+      "country": "Belgium",
+      "name": "Marks & Spencer Belgian Lager"
     }
   },
   "M&S French Lager": {
     "untappd": {
-      "id": "35092"
+      "id": "35092",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 2.55556,
+      "brewery": "Brasserie Champigneulles",
+      "country": "France",
+      "name": "Marks & Spencer French Lager"
     }
   },
   "Tennant\\'s super": {
     "untappd": {
-      "id": "8290"
+      "id": "8290",
+      "style": "Lager - Euro Strong",
+      "IBU": 0,
+      "score": 2.92576,
+      "brewery": "Tennent Caledonian Brewery",
+      "country": "Scotland",
+      "name": "Tennent's Super"
     }
   },
   "Kestrel Super lager": {
     "untappd": {
-    	"id":""
+      "id": ""
     }
   },
   "Carlsberg special": {
     "untappd": {
-      "id": "55941"
+      "id": "55941",
+      "style": "Pilsner - Imperial / Double",
+      "IBU": 0,
+      "score": 2.83591,
+      "brewery": "Carlsberg Group",
+      "country": "Denmark",
+      "name": "Carlsberg Special Brew"
     }
   },
   "Crest Super": {
     "untappd": {
-      "id": "42599"
+      "id": "42599",
+      "style": "Lager - Euro",
+      "IBU": 0,
+      "score": 2.56379,
+      "brewery": "Charles Wells Brewery",
+      "country": "England",
+      "name": "Crest Super"
     }
   },
   "Old empire": {
     "untappd": {
-      "id": "15040"
+      "id": "15040",
+      "style": "IPA - English",
+      "IBU": 0,
+      "score": 3.28966,
+      "brewery": "Marston's Brewery",
+      "country": "England",
+      "name": "Old Empire"
     }
   },
   "Wainwrights": {
@@ -206,122 +360,266 @@
   },
   "Hobgoblin": {
     "untappd": {
-      "id": "5875"
+      "id": "5875",
+      "style": "Extra Special / Strong Bitter",
+      "IBU": 0,
+      "score": 3.51692,
+      "brewery": "Wychwood Brewery",
+      "country": "England",
+      "name": "Hobgoblin"
     }
   },
   "King goblin": {
     "untappd": {
-      "id": "15490"
+      "id": "15490",
+      "style": "Strong Ale - English",
+      "IBU": 0,
+      "score": 3.68124,
+      "brewery": "Wychwood Brewery",
+      "country": "England",
+      "name": "King Goblin"
     }
   },
   "Rocking Rudolph": {
     "untappd": {
-      "id": "274315"
+      "id": "274315",
+      "style": "Winter Ale",
+      "IBU": 0,
+      "score": 3.14192,
+      "brewery": "Greene King",
+      "country": "England",
+      "name": "Hardys & Hansons Rocking Rudolph"
     }
   },
   "Hopping Hare": {
     "untappd": {
-      "id": "29074"
+      "id": "29074",
+      "style": "IPA - English",
+      "IBU": 0,
+      "score": 3.4285,
+      "brewery": "Badger Ales (Hall & Woodhouse)",
+      "country": "England",
+      "name": "Hopping Hare"
     }
   },
   "Golden Champion": {
     "untappd": {
-      "id": "15833"
+      "id": "15833",
+      "style": "Golden Ale",
+      "IBU": 0,
+      "score": 3.51478,
+      "brewery": "Badger Ales (Hall & Woodhouse)",
+      "country": "England",
+      "name": "Golden Champion"
     }
   },
   "Golden Glory": {
     "untappd": {
-      "id": "16978"
+      "id": "16978",
+      "style": "Golden Ale",
+      "IBU": 0,
+      "score": 3.41143,
+      "brewery": "Badger Ales (Hall & Woodhouse)",
+      "country": "England",
+      "name": "Golden Glory"
     }
   },
   "Fursty Ferret": {
     "untappd": {
-      "id": "8932"
+      "id": "8932",
+      "style": "Pale Ale - English",
+      "IBU": 0,
+      "score": 3.40048,
+      "brewery": "Badger Ales (Hall & Woodhouse)",
+      "country": "England",
+      "name": "Fursty Ferret"
     }
   },
   "Badger Tangle Foot": {
     "untappd": {
-      "id": "29338"
+      "id": "29338",
+      "style": "Extra Special / Strong Bitter",
+      "IBU": 0,
+      "score": 3.36687,
+      "brewery": "Badger Ales (Hall & Woodhouse)",
+      "country": "England",
+      "name": "Tangle Foot"
     }
   },
   "Firkin fox": {
     "untappd": {
-      "id": "133348"
+      "id": "133348",
+      "style": "English Bitter",
+      "IBU": 0,
+      "score": 3.43475,
+      "brewery": "Badger Ales (Hall & Woodhouse)",
+      "country": "England",
+      "name": "Firkin Fox"
     }
   },
   "Badger Poacher\\'s choice": {
     "untappd": {
-      "id": "13035"
+      "id": "13035",
+      "style": "Strong Ale - English",
+      "IBU": 0,
+      "score": 3.51155,
+      "brewery": "Badger Ales (Hall & Woodhouse)",
+      "country": "England",
+      "name": "Poacher's Choice"
     }
   },
   "Badger blandford flyer": {
     "untappd": {
-      "id": "31806"
+      "id": "31806",
+      "style": "Ginger Beer",
+      "IBU": 0,
+      "score": 3.17604,
+      "brewery": "Badger Ales (Hall & Woodhouse)",
+      "country": "England",
+      "name": "Blandford Flyer"
     }
   },
   "Badger First Gold": {
     "untappd": {
-      "id": "9722"
+      "id": "9722",
+      "style": "English Bitter",
+      "IBU": 0,
+      "score": 3.3609,
+      "brewery": "Badger Ales (Hall & Woodhouse)",
+      "country": "England",
+      "name": "First Gold"
     }
   },
   "Abbot Ale": {
     "untappd": {
-      "id": "3478"
+      "id": "3478",
+      "style": "Extra Special / Strong Bitter",
+      "IBU": 0,
+      "score": 3.27604,
+      "brewery": "Greene King",
+      "country": "England",
+      "name": "Abbot Ale"
     }
   },
   "Bass": {
     "untappd": {
-      "id": "5872"
+      "id": "5872",
+      "style": "Pale Ale - English",
+      "IBU": 49,
+      "score": 3.29788,
+      "brewery": "Bass Brewers",
+      "country": "England",
+      "name": "Bass Pale Ale"
     }
   },
   "Lech": {
     "untappd": {
-      "id": "29306"
+      "id": "29306",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 2.95549,
+      "brewery": "Lech Browary Wielkopolski (Kompania Piwowarska)",
+      "country": "Poland",
+      "name": "Lech Premium"
     }
   },
   "Tatra": {
     "untappd": {
-      "id": "21643"
+      "id": "21643",
+      "style": "Lager - Euro",
+      "IBU": 0,
+      "score": 2.95011,
+      "brewery": "Grupa Żywiec",
+      "country": "Poland",
+      "name": "Tatra"
     }
   },
   "Zywiec": {
     "untappd": {
-      "id": "10519"
+      "id": "10519",
+      "style": "Lager - Pale",
+      "IBU": 0,
+      "score": 3.09332,
+      "brewery": "Grupa Żywiec",
+      "country": "Poland",
+      "name": "Żywiec"
     }
   },
   "Debowe mocne": {
     "untappd": {
-      "id": "83020"
+      "id": "83020",
+      "style": "Lager - Euro Strong",
+      "IBU": 19,
+      "score": 2.99546,
+      "brewery": "Kompania Piwowarska",
+      "country": "Poland",
+      "name": "Dębowe"
     }
   },
   "Warka": {
     "untappd": {
-      "id": "32854"
+      "id": "32854",
+      "style": "Lager - Euro",
+      "IBU": 0,
+      "score": 2.95392,
+      "brewery": "Browar Warka (Grupa Żywiec)",
+      "country": "Poland",
+      "name": "Warka (Classic)"
     }
   },
   "Wojak mocny": {
     "untappd": {
-      "id": "878327"
+      "id": "878327",
+      "style": "Lager - Euro Strong",
+      "IBU": 0,
+      "score": 2.51415,
+      "brewery": "Kompania Piwowarska",
+      "country": "Poland",
+      "name": "Wojak Mocny"
     }
   },
   "Tyskie klasyczne": {
     "untappd": {
-      "id": "186042"
+      "id": "186042",
+      "style": "Lager - Euro",
+      "IBU": 0,
+      "score": 2.89588,
+      "brewery": "Tyskie Browary Książęce (Kompania Piwowarska)",
+      "country": "Poland",
+      "name": "Tyskie Klasyczne"
     }
   },
   "Whistable Bay organic Ale": {
     "untappd": {
-      "id": "8668"
+      "id": "8668",
+      "style": "Golden Ale",
+      "IBU": 0,
+      "score": 3.20609,
+      "brewery": "Shepherd Neame",
+      "country": "England",
+      "name": "Whitstable Bay Organic Ale"
     }
   },
   "Meantime London Lager": {
     "untappd": {
-      "id": "42347"
+      "id": "42347",
+      "style": "Lager - Pale",
+      "IBU": 4,
+      "score": 3.28824,
+      "brewery": "Meantime Brewing Company",
+      "country": "England",
+      "name": "London Lager"
     }
   },
   "Isle of Arran blonde": {
     "untappd": {
-      "id": "18918"
+      "id": "18918",
+      "style": "Blonde Ale",
+      "IBU": 0,
+      "score": 3.45661,
+      "brewery": "Isle of Arran Brewery Co.",
+      "country": "Scotland",
+      "name": "Blonde"
     }
   },
   "St Edmunds": {
@@ -886,27 +1184,27 @@
   },
   "Arvo brew 51": {
     "untappd": {
-      "id": ""
+      "id": "183239"
     }
   },
   "Lord Nelson old admiral": {
     "untappd": {
-      "id": ""
+      "id": "45881"
     }
   },
   "Lord Nelson Quayle ale": {
     "untappd": {
-      "id": ""
+      "id": "73924"
     }
   },
   "Lord Nelson Trafalgar pale ale": {
     "untappd": {
-      "id": ""
+      "id": "43692"
     }
   },
   "Lord Nelson Nelson\\'s blood": {
     "untappd": {
-      "id": ""
+      "id": "43694"
     }
   },
   "VB pale lager": {
@@ -916,47 +1214,47 @@
   },
   "Two birds sunset ale": {
     "untappd": {
-      "id": ""
+      "id": "169972"
     }
   },
   "Vale ale": {
     "untappd": {
-      "id": ""
+      "id": "7452"
     }
   },
   "Moo brew pilsner": {
     "untappd": {
-      "id": ""
+      "id": "25850"
     }
   },
   "Fat Yak": {
     "untappd": {
-      "id": ""
+      "id": "7423"
     }
   },
   "The boxer red ale": {
     "untappd": {
-      "id": ""
+      "id": "37299"
     }
   },
   "Hangman pale ale": {
     "untappd": {
-      "id": ""
+      "id": "29859"
     }
   },
   "The governor golden ale": {
     "untappd": {
-      "id": ""
+      "id": "31737"
     }
   },
   "Red truck lager": {
     "untappd": {
-      "id": ""
+      "id": "37582"
     }
   },
   "The convict lager": {
     "untappd": {
-      "id": ""
+      "id": "228660"
     }
   },
   "Bighead no carb beer": {
@@ -966,17 +1264,17 @@
   },
   "James squire one fifty lashes": {
     "untappd": {
-      "id": ""
+      "id": "55904"
     }
   },
   "James squire sun down": {
     "untappd": {
-      "id": ""
+      "id": "8232"
     }
   },
   "Bluetongue": {
     "untappd": {
-      "id": ""
+      "id": "11350"
     }
   },
   "Bluetongue pilsner": {
@@ -986,7 +1284,7 @@
   },
   "Little creatures bright ale": {
     "untappd": {
-      "id": ""
+      "id": "7424"
     }
   },
   "Pepperjack hand crafted ale": {
@@ -996,7 +1294,7 @@
   },
   "NZ pure lager": {
     "untappd": {
-      "id": ""
+      "id": "145696"
     }
   },
   "4 pines Keller door": {
@@ -1011,42 +1309,42 @@
   },
   "Holgate mt Macedon ale": {
     "untappd": {
-      "id": ""
+      "id": "7655"
     }
   },
   "Holgate Millenium Falcon": {
     "untappd": {
-      "id": ""
+      "id": "313871"
     }
   },
   "Moo brew Belgo": {
     "untappd": {
-      "id": ""
+      "id": "171077"
     }
   },
   "Murrays icon 2IPA": {
     "untappd": {
-      "id": ""
+      "id": "9166"
     }
   },
   "Boa\\'s bind": {
     "untappd": {
-      "id": ""
+      "id": "246304"
     }
   },
   "Larks foot": {
     "untappd": {
-      "id": ""
+      "id": "246279"
     }
   },
   "Carlton dry": {
     "untappd": {
-      "id": ""
+      "id": "11581"
     }
   },
   "Pure blonde": {
     "untappd": {
-      "id": ""
+      "id": "7417"
     }
   },
   "The convict strong ale": {
@@ -1056,67 +1354,67 @@
   },
   "Wells bombardier burning gold": {
     "untappd": {
-      "id": ""
+      "id": "26221"
     }
   },
   "Korev": {
     "untappd": {
-      "id": ""
+      "id": "32862"
     }
   },
   "Simply IPA": {
     "untappd": {
-      "id": ""
+      "id": "180517"
     }
   },
   "Curious Brew": {
     "untappd": {
-      "id": ""
+      "id": "204447"
     }
   },
   "Belhaven grand slam ale": {
     "untappd": {
-      "id": ""
+      "id": "126798"
     }
   },
   "Old golden hen": {
     "untappd": {
-      "id": ""
+      "id": "75673"
     }
   },
   "Spitfire Kentish ale": {
     "untappd": {
-      "id": ""
+      "id": "32722"
     }
   },
   "Wells bombardier English": {
     "untappd": {
-      "id": ""
+      "id": "5101"
     }
   },
   "Murphy\\'s draught": {
     "untappd": {
-      "id": ""
+      "id": "5932"
     }
   },
   "Frederic Robinson ginger ale": {
     "untappd": {
-      "id": ""
+      "id": "31571"
     }
   },
   "Wiltshire rum beer": {
     "untappd": {
-      "id": ""
+      "id": "20358"
     }
   },
   "Amigos": {
     "untappd": {
-      "id": ""
+      "id": "38362"
     }
   },
   "Früli": {
     "untappd": {
-      "id": ""
+      "id": "6314"
     }
   },
   "Timmermans peche lambic beer": {
@@ -1131,42 +1429,42 @@
   },
   "Vratislav": {
     "untappd": {
-      "id": ""
+      "id": "405088"
     }
   },
   "Remus": {
     "untappd": {
-      "id": ""
+      "id": "363487"
     }
   },
   "Green king light ale": {
     "untappd": {
-      "id": ""
+      "id": "76411"
     }
   },
   "Old salt quay": {
     "untappd": {
-      "id": ""
+      "id": "461458"
     }
   },
   "Budweiser 66": {
     "untappd": {
-      "id": ""
+      "id": "5917"
     }
   },
   "Okocim mocne": {
     "untappd": {
-      "id": ""
+      "id": "68244"
     }
   },
   "Desperados": {
     "untappd": {
-      "id": ""
+      "id": "5997"
     }
   },
   "Corona": {
     "untappd": {
-      "id": ""
+      "id": "5848"
     }
   },
   "Cuvana rum beer": {
@@ -1176,152 +1474,147 @@
   },
   "Masquerido": {
     "untappd": {
-      "id": ""
-    }
-  },
-  "Abbot ale": {
-    "untappd": {
-      "id": ""
+      "id": "541780"
     }
   },
   "Wychwood brewery Goliath": {
     "untappd": {
-      "id": ""
+      "id": "12685"
     }
   },
   "Fuller\\'s honey dew": {
     "untappd": {
-      "id": ""
+      "id": "22286"
     }
   },
   "Bath ales barnsey": {
     "untappd": {
-      "id": ""
+      "id": "6249"
     }
   },
   "Bath ales gem": {
     "untappd": {
-      "id": ""
+      "id": "6248"
     }
   },
   "Bath ales wild hare": {
     "untappd": {
-      "id": ""
+      "id": "6251"
     }
   },
   "Bath ales Dark Side": {
     "untappd": {
-      "id": ""
+      "id": "6247"
     }
   },
   "Modelo": {
     "untappd": {
-      "id": ""
+      "id": "6277"
     }
   },
   "Madog\\'s ale": {
     "untappd": {
-      "id": ""
+      "id": "16811"
     }
   },
   "Ysgawen": {
     "untappd": {
-      "id": ""
+      "id": "424071"
     }
   },
   "Faxe": {
     "untappd": {
-      "id": ""
+      "id": "68016"
     }
   },
   "Cwrw gwledd celebration ale": {
     "untappd": {
-      "id": ""
+      "id": "167167"
     }
   },
   "London fields Unfiltered lager": {
     "untappd": {
-      "id": ""
+      "id": "915568"
     }
   },
   "London fields wheat beer": {
     "untappd": {
-      "id": ""
+      "id": "98104"
     }
   },
   "Anchor steam": {
     "untappd": {
-      "id": ""
+      "id": "6204"
     }
   },
   "London fields hackney hopster": {
     "untappd": {
-      "id": ""
+      "id": "98628"
     }
   },
   "Dragon stout": {
     "untappd": {
-      "id": ""
+      "id": "24231"
     }
   },
   "St mungo": {
     "untappd": {
-      "id": ""
+      "id": "11358"
     }
   },
   "Hogs back hop": {
     "untappd": {
-      "id": ""
+      "id": "95475"
     }
   },
   "Oakham citra": {
     "untappd": {
-      "id": ""
+      "id": "14646"
     }
   },
   "Oakham scarlet macaw": {
     "untappd": {
-      "id": ""
+      "id": "52694"
     }
   },
   "Oakham ales inferno": {
     "untappd": {
-      "id": ""
+      "id": "14764"
     }
   },
   "Floris chocolat": {
     "untappd": {
-      "id": ""
+      "id": "41825"
     }
   },
   "Williams joker IPA": {
     "untappd": {
-      "id": ""
+      "id": "13049"
     }
   },
   "Amber rambler": {
     "untappd": {
-      "id": ""
+      "id": "39170"
     }
   },
   "Ruddles": {
     "untappd": {
-      "id": ""
+      "id": "37603"
     }
   },
   "Great bustard": {
     "untappd": {
-      "id": ""
+      "id": "61005"
     }
   },
   "Efes": {
     "untappd": {
-      "id": ""
+      "id": "17259"
     }
   },
   "Perge": {
     "untappd": {
-      "id": ""
+      "id": "219614"
     }
   },
   "Voll-damn doble Malta": {
@@ -1331,27 +1624,27 @@
   },
   "Cruzcampo": {
     "untappd": {
-      "id": ""
+      "id": "399207"
     }
   },
   "Estrella Galicia": {
     "untappd": {
-      "id": ""
+      "id": "7313"
     }
   },
   "Estrella": {
     "untappd": {
-      "id": ""
+      "id": "5151"
     }
   },
   "Mahou": {
     "untappd": {
-      "id": ""
+      "id": "19579"
     }
   },
   "San Miguel": {
     "untappd": {
-      "id": ""
+      "id": "6439"
     }
   },
   "Keler": {
@@ -1361,12 +1654,12 @@
   },
   "Ambar": {
     "untappd": {
-      "id": ""
+      "id": "12487"
     }
   },
   "Cruzcampo gran reserva": {
     "untappd": {
-      "id": ""
+      "id": "15683"
     }
   },
   "Koenigsbier": {
@@ -1376,7 +1669,7 @@
   },
   "Quilmes": {
     "untappd": {
-      "id": ""
+      "id": "9268"
     }
   },
   "Blas trigo": {
@@ -1386,17 +1679,17 @@
   },
   "Faro Lambic": {
     "untappd": {
-      "id": ""
+      "id": "7897"
     }
   },
   "Skull splitter": {
     "untappd": {
-      "id": ""
+      "id": "3108"
     }
   },
   "Sagres Bohemia": {
     "untappd": {
-      "id": ""
+      "id": "347897"
     }
   },
   "Curious original pale ale": {
@@ -1406,72 +1699,72 @@
   },
   "Centennial IPA": {
     "untappd": {
-      "id": ""
+      "id": "1465"
     }
   },
   "Wild beer epic saison": {
     "untappd": {
-      "id": ""
+      "id": "259506"
     }
   },
   "The wild beer co Bliss": {
     "untappd": {
-      "id": ""
+      "id": "259507"
     }
   },
   "Founders Porter": {
     "untappd": {
-      "id": ""
+      "id": "9346"
     }
   },
   "01|02": {
     "untappd": {
-      "id": ""
+      "id": "324540"
     }
   },
   "Arcobräu winterbier": {
     "untappd": {
-      "id": ""
+      "id": "84426"
     }
   },
   "Benediktiner": {
     "untappd": {
-      "id": ""
+      "id": "103362"
     }
   },
   "Spaten": {
     "untappd": {
-      "id": ""
+      "id": "1633"
     }
   },
   "Paulaner": {
     "untappd": {
-      "id": ""
+      "id": "15677"
     }
   },
   "Erdinger": {
     "untappd": {
-      "id": ""
+      "id": "7420"
     }
   },
   "Lowenbräu": {
     "untappd": {
-      "id": ""
+      "id": "25914"
     }
   },
   "Grafenwalder": {
     "untappd": {
-      "id": ""
+      "id": "67076"
     }
   },
   "Köstritzer schwarzbier": {
     "untappd": {
-      "id": ""
+      "id": "25784"
     }
   },
   "Rheinbacher": {
     "untappd": {
-      "id": ""
+      "id": "436383"
     }
   },
   "Hogaarden blanche": {
@@ -1481,7 +1774,7 @@
   },
   "Bitburger": {
     "untappd": {
-      "id": ""
+      "id": "17252"
     }
   },
   "Fischer\\'s stiftungbräu helles": {
@@ -1491,52 +1784,52 @@
   },
   "Rothaus Pils": {
     "untappd": {
-      "id": ""
+      "id": "2395"
     }
   },
   "Konig pils": {
     "untappd": {
-      "id": ""
+      "id": "7521"
     }
   },
   "Hofbrau": {
     "untappd": {
-      "id": ""
+      "id": "38001"
     }
   },
   "Hacker-Pschorr": {
     "untappd": {
-      "id": ""
+      "id": "1827"
     }
   },
   "DAB": {
     "untappd": {
-      "id": ""
+      "id": "30445"
     }
   },
   "Augustinerbrau": {
     "untappd": {
-      "id": ""
+      "id": "9254"
     }
   },
   "Maxlrainer": {
     "untappd": {
-      "id": ""
+      "id": "66202"
     }
   },
   "Meantime Yakima Red": {
     "untappd": {
-      "id": ""
+      "id": "45917"
     }
   },
   "Meantime London Stout": {
     "untappd": {
-      "id": ""
+      "id": "25773"
     }
   },
   "Meantime Pilsner": {
     "untappd": {
-      "id": ""
+      "id": "7978"
     }
   },
   "Charlie\\'s": {
@@ -1546,12 +1839,12 @@
   },
   "Adnams Spindrift": {
     "untappd": {
-      "id": ""
+      "id": "6198"
     }
   },
   "Red hook pilsner": {
     "untappd": {
-      "id": ""
+      "id": "40858"
     }
   },
   "Dark Lord": {
@@ -1561,52 +1854,52 @@
   },
   "Moosehead": {
     "untappd": {
-      "id": ""
+      "id": "5440"
     }
   },
   "Adnams Broadside": {
     "untappd": {
-      "id": ""
+      "id": "4003"
     }
   },
   "Einstök Pale ale": {
     "untappd": {
-      "id": ""
+      "id": "99106"
     }
   },
   "Einstok toasted porter": {
     "untappd": {
-      "id": ""
+      "id": "107027"
     }
   },
   "Leo": {
     "untappd": {
-      "id": ""
+      "id": "14893"
     }
   },
   "Tiger": {
     "untappd": {
-      "id": ""
+      "id": "7747"
     }
   },
   "Chang export": {
     "untappd": {
-      "id": ""
+      "id": "175132"
     }
   },
   "Singha": {
     "untappd": {
-    	"id":""
+      "id": "6344"
     }
   },
   "Beerlao": {
     "untappd": {
-      "id": ""
+      "id": "65020"
     }
   },
   "Tsingtao": {
     "untappd": {
-      "id": ""
+      "id": "6601"
     }
   },
   "Sapporo": {
@@ -1616,22 +1909,22 @@
   },
   "Hitachino red rice": {
     "untappd": {
-      "id": ""
+      "id": "12592"
     }
   },
   "Hitachino Ginger ale": {
     "untappd": {
-      "id": ""
+      "id": "17674"
     }
   },
   "Hitachino pale ale": {
     "untappd": {
-      "id": ""
+      "id": "33297"
     }
   },
   "Asahi": {
     "untappd": {
-      "id": ""
+      "id": "8020"
     }
   },
   "Hitachino japaneses classic ale": {
@@ -1641,17 +1934,17 @@
   },
   "Hitachino Nest Commemorative Ale": {
     "untappd": {
-      "id": ""
+      "id": "910657"
     }
   },
   "Hoopers Ginger brew": {
     "untappd": {
-      "id": ""
+      "id": "266654"
     }
   },
   "Strongroom dark": {
     "untappd": {
-      "id": ""
+      "id": "226897"
     }
   },
   "Boondoggle blonde ale": {
@@ -1661,47 +1954,47 @@
   },
   "Banks caribbean lager": {
     "untappd": {
-      "id": ""
+      "id": "17620"
     }
   },
   "Nutty black": {
     "untappd": {
-      "id": ""
+      "id": "25221"
     }
   },
   "ESB": {
     "untappd": {
-      "id": ""
+      "id": "5455"
     }
   },
   "Hylder Blonde": {
     "untappd": {
-      "id": ""
+      "id": "49330"
     }
   },
   "The big inflatable cowboy hat": {
     "untappd": {
-      "id": ""
+      "id": "381027"
     }
   },
   "Long hammer IPA": {
     "untappd": {
-      "id": ""
+      "id": "6504"
     }
   },
   "Courage light ale": {
     "untappd": {
-      "id": ""
+      "id": "113545"
     }
   },
   "Camden Hells": {
     "untappd": {
-      "id": ""
+      "id": "158571"
     }
   },
   "Camden gentlemans wit": {
     "untappd": {
-      "id": ""
+      "id": "108629"
     }
   },
   "Point pale ale": {
@@ -1716,12 +2009,12 @@
   },
   "Cusquena": {
     "untappd": {
-      "id": ""
+      "id": "539117"
     }
   },
   "Utenos classic": {
     "untappd": {
-      "id": ""
+      "id": "272115"
     }
   },
   "Cmapbiu Menbhuk": {
@@ -1736,7 +2029,7 @@
   },
   "Baltika 7": {
     "untappd": {
-      "id": ""
+      "id": "7097"
     }
   },
   "Cmapbiu Menbhuk Temhoe": {
@@ -1751,27 +2044,27 @@
   },
   "Zelta premium": {
     "untappd": {
-      "id": ""
+      "id": "214138"
     }
   },
   "Cesu premium": {
     "untappd": {
-      "id": ""
+      "id": "745853"
     }
   },
   "Adnams southwold innovation": {
     "untappd": {
-      "id": ""
+      "id": "471020"
     }
   },
   "Czech Norris": {
     "untappd": {
-      "id": ""
+      "id": "298490"
     }
   },
   "F.X. Buckley": {
     "untappd": {
-      "id": ""
+      "id": "380970"
     }
   },
   "Aldaris pilzens": {
@@ -1781,42 +2074,42 @@
   },
   "Butauty": {
     "untappd": {
-      "id": ""
+      "id": "772478"
     }
   },
   "Brakspear Oxford gold": {
     "untappd": {
-      "id": ""
+      "id": "14933"
     }
   },
   "Betty Stogs": {
     "untappd": {
-      "id": ""
+      "id": "28517"
     }
   },
   "St Peter\\'s Golden Ale": {
     "untappd": {
-      "id": ""
+      "id": "219"
     }
   },
   "St Peter\\'s Best Bitter": {
     "untappd": {
-      "id": ""
+      "id": "38727"
     }
   },
   "St Peter\\'s Mild": {
     "untappd": {
-      "id": ""
+      "id": "121019"
     }
   },
   "St Peter\\'s ruby red ale": {
     "untappd": {
-      "id": ""
+      "id": "39546"
     }
   },
   "Svyturys ekstra": {
     "untappd": {
-      "id": ""
+      "id": "6923"
     }
   },
   "Svyturys": {
@@ -1826,17 +2119,17 @@
   },
   "Svyturys Baltijos": {
     "untappd": {
-      "id": ""
+      "id": "24730"
     }
   },
   "Svyturys Baltas white": {
     "untappd": {
-      "id": ""
+      "id": "37946"
     }
   },
   "Svyturys old port ale": {
     "untappd": {
-      "id": ""
+      "id": "329660"
     }
   },
   "Aldaris Luksus": {
