@@ -42,7 +42,7 @@ extraData.each do |item|
 		hash["country"] = brewery["country_name"]
 		hash["name"] = beer["beer_name"]
 		count = count + 1
-		if count > 20
+		if count > 50
 			break
 		end
 	end
