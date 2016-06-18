@@ -3141,15 +3141,9 @@
       "name": "Rheinbacher Premium Pils"
     }
   },
-  "Hogaarden blanche": {
+  "Hoegaarden blanche": {
     "untappd": {
-      "id": "6422",
-      "style": "Witbier",
-      "IBU": 15,
-      "score": 3.58844,
-      "brewery": "Brouwerij van Hoegaarden",
-      "country": "Belgium",
-      "name": "Hoegaarden Blanche"
+      "id": ""
     }
   },
   "Bitburger": {
@@ -4041,15 +4035,9 @@
       "name": "McEwan's Export"
     }
   },
-  "Cave creek chill beer": {
+  "Cave creek chili beer": {
     "untappd": {
-      "id": "77737",
-      "style": "Chile Beer",
-      "IBU": 0,
-      "score": 2.75524,
-      "brewery": "Cervecería Mexicana S. de R.L. de C.V. (Tecate)",
-      "country": "Mexico",
-      "name": "Original C Cave Creek Chili Beer - Cerveza Con Chili"
+      "id": ""
     }
   },
   "Partizan dubbel": {
@@ -5409,6 +5397,11 @@
       "name": "Pintail Pale Ale"
     }
   },
+  "Orion draft beer": {
+    "untappd": {
+      "id": ""
+    }
+  },
   "Wicked elf pale ale": {
     "untappd": {
       "id": "13574",
@@ -6063,17 +6056,6 @@
       "name": "Old Hooky"
     }
   },
-  "Mildura Brewery Stefano’s": {
-    "untappd": {
-      "id": "42113",
-      "style": "Pilsner - Other",
-      "IBU": 0,
-      "score": 3.21972,
-      "brewery": "Mildura Brewery",
-      "country": "Australia",
-      "name": "Stefano's Pilsner"
-    }
-  },
   "Cascade Stout": {
     "untappd": {
       "id": "57106",
@@ -6248,17 +6230,6 @@
       "brewery": "Monteith's Brewing Co. ",
       "country": "New Zealand",
       "name": "Monteith's Summer Ale"
-    }
-  },
-  "Vale IPA": {
-    "untappd": {
-      "id": "58019",
-      "style": "IPA - American",
-      "IBU": 41,
-      "score": 3.51271,
-      "brewery": "Vale Brewing",
-      "country": "Australia",
-      "name": "VALE IPA"
     }
   },
   "Wicked Elf WitBier": {
@@ -10040,6 +10011,81 @@
       "brewery": "Akasha Brewing Company (Australia)",
       "country": "Australia",
       "name": "Water Buffalo"
+    }
+  },
+  "Arc Valley Lager": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Namysrów pils": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Sierra Nevada Otra vez": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Magic rock Cannonball IPA": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Exit milk stout": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "The continuous daryl": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Holgate temptress": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Magic rock high wire grapefruit": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Holgate hop tart": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Rogue dead guy": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Skorubrew #6": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Magic rock salty kiss": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Tuatara outrigger": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Legal tender": {
+    "untappd": {
+      "id": ""
+    }
+  },
+  "Lord Nelson dead ahead": {
+    "untappd": {
+      "id": ""
     }
   }
 }

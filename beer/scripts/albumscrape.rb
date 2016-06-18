@@ -4,7 +4,7 @@ require 'httpclient'
 require 'json'
 
 # Need to generate a new token every hour or so
-@token = "EAACEdEose0cBABcarFlzKOQ6xkprYzudrP8EZBf73WZCNHNPMdf175ShbeQSNAQPfyuFvD9SVoauETxiEM3EuPs0tWr85QyJ6xB1UwnMO2NqIhme1xHAPy2blooursK1S2QMubaRHdXpqU0sDkryC3LhMImtJZAWYeclzbAZCQZDZD";
+@token = "EAACEdEose0cBAE5A1ZCvK9jaq4wQVuwBZAyHufgbz7jB0jay5YB3tIejoDQ1F9uyZAqNPoSnjZA8L0qPBrjSLGOi01QqCwhr7sEO3ZC5cYwLd9luvD0ZCOqUoakUTuocJn8Ln1yMVhHz4DjqaFK5vv97YDZA1QO5ZBDFcdINrwIPmgZDZD";
 @albums = ["10151283325498745","10152534310003745"]
 @allBeers = [];
 @next = ""
@@ -55,7 +55,7 @@ def downloadChunk(url)
 	    end
 	    
 	    puts lines
-	    score = lines[1][/[0-9]{1,2}.10/]
+	    score = lines[1][/[0-9.]{1,3}.10/]
 	    if score
 	        lines[1][score] = "";
 	        score = score.chop.chop.chop;
