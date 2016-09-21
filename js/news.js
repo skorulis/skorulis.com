@@ -1,5 +1,15 @@
 var news = [
 	{
+		title: '975 Beers',
+		date: '21-09-2016 20:00',
+		text: 'Did an update to my <a href="beer/index.html">big album of beers</a>. Now up to 975 beers which leaves me only 25 beers left this year to reach my goal. What will be #1000?'
+	},
+	{
+		title: '<a href="https://positly.com">Positly</a>',
+		date: '21-09-2016 17:00',
+		text: "Positly is all about tracking opinions. It's not about being right or wrong but getting an understanding of what different people believe and think. With this data users can see how well their views line up with the majority as well as gain an understanding of how opinions relate to each other. "
+	},
+	{
 		title: 'Unreal Engine 4',
 		date: '27-03-2014 21:00',
 		text: 'Started some experimentation with the new <a href="https://www.unrealengine.com/">unreal engine 4</a> and spent some time with the level editor trying to create some basic geometry <a href="http://blog.skorulis.com/2014/03/unreal-engine-4-creating-a-triangle-block/">blog post here</a>'
