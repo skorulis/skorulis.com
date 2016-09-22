@@ -1,5 +1,10 @@
 var news = [
 	{
+		title: 'Easy Money',
+		date: '22-09-2016 18:00',
+		text: 'I\'ve been spending some time researching ways to make money online. So far I haven\'t cracked the code but have <a href="http://money.skorulis.com/sites.html">reviewed many potential sites</a>. Hopefully this helps someone.'
+	},
+	{
 		title: '975 Beers',
 		date: '21-09-2016 20:00',
 		text: 'Did an update to my <a href="beer/index.html">big album of beers</a>. Now up to 975 beers which leaves me only 25 beers left this year to reach my goal. What will be #1000?'
