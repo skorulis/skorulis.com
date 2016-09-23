@@ -48,7 +48,7 @@
 		<div class="news-list">
 			{{#each model.portfolio}}
 				<div class="news-item">
-					<h3 class='news-title'>{{name}}</h3> 
+					<h3 class='news-title'>{{name}} - {{year}}</h3> 
 					<p>{{{desc}}}</p>
 					<div {{bindAttr id="divId"}} class="images">
 						<table >
@@ -57,10 +57,10 @@
 								<td><img {{bindAttr src="img"}} class="image-item" /></td>
 							{{/each}}
 							</tr>
-						</table>
-						
-					
+						</table>	
 					</div>
+					<br/>
+					<p><b>Involvement:</b> {{involvement}}</p>
 				</div>				
 			{{/each}}
 		</div>
