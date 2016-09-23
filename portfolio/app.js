@@ -71,13 +71,13 @@ var portfolio = [
 	{
 		name: "Children's Panadol",
 		divId: 'childP',
-		images: ["cp1.png", "cp2.png", "cp3.png", "cp4.png", "cp5.png", "cp6.png", "cp7.png"],
+		images: ["cp1l.png", "cp2l.png", "cp3l.png", "cp4l.png", "cp5l.png", "cp6l.png", "cp7l.png"],
 		desc: 'Childrens Panadol - Informational application about childrens panadol.<br/> <a href="http://itunes.apple.com/au/app/childrens-panadol/id368157238?mt=8">iPhone link</a>'
 	},
 	{
 		name: "Children's Panadol UAE",
 		divId: 'childPUAE',
-		images: ["cpuae1.png", "cpuae2.png", "cpuae3.png", "cpuae4.png", "cpuae5.png", "cpuae6.png", "cpuae7.png", ],
+		images: ["cpuae1l.png", "cpuae2l.png", "cpuae3l.png", "cpuae4l.png", "cpuae5l.png", "cpuae6l.png", "cpuae7l.png", ],
 		desc: "Redesign of the Australian panadol app for distribution in UAE"
 	},
 	{
