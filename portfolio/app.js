@@ -95,13 +95,13 @@ var portfolio = [
 	{
 		name: "Pages Digital",
 		divId: "pagesDigital",
-		images: ["pd1.png", "pd2.png", "pd3.png", "pd4.png", "pda1.jpg", "pda2.jpg"],
+		images: ["pd1l.png", "pd2l.png", "pd3l.png", "pd4l.png", "pda1.jpg", "pda2.jpg"],
 		desc: 'iPhone and Android application to deliver news and gigs from <a href="http://www.pagesdigital.com">Pages Digital</a><br/> <a href="https://market.android.com/details?id=com.miainternational.PagesDigital&feature=search_result">Android link</a><br/> <a href="http://itunes.apple.com/au/app/music-gigs-fashion-guide/id397713753?mt=8">iPhone link</a>'
 	},
 	{
 		name: "What makes me",
 		divId: "wmm",
-		images: ["wmm1.png", "wmm2.png", "wmm3.png", "wmm4.png", "wmm5.png", ],
+		images: ["wmm1l.png", "wmm2l.png", "wmm3l.png", "wmm4l.png", "wmm5l.png", ],
 		desc: 'iPhone version of the flash website <a href="http://www.whatmakesme.com.au/">http://www.whatmakesme.com.au/</a>. Allowed the user to build a 3d cube and then submit it to the website. (no longer available)'
 	},
 	{
