@@ -65,7 +65,7 @@ var portfolio = [
 	{
 		name: 'ad tech',
 		divId: 'adtech',
-		images: ["070.png", "071.png", "072.png", "073.png", "074.png", "ats1.png", "ats2.png", "ats3.png", "ats4.png",],
+		images: ["070l.png", "071l.png", "072l.png", "073l.png", "074l.png", "ats1l.png", "ats2l.png", "ats3l.png", "ats4l.png",],
 		desc: 'iPhone based exhibition program guide for Sydney and Melbourne (no longer available)'
 	},
 	{
