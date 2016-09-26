@@ -1,0 +1,92 @@
+{
+   "androidApps":[
+      {
+         "id":0,
+         "name":"PEL",
+         "img":"pel.png",
+         "year":2011,
+         "link":"https://market.android.com/details?id=com.skorulis.PEL&amp;feature=search_result",
+         "description":"I wrote this game to mess around with modular game components and because it's a simple game that I really liked.",
+         "isFirst":true
+      },
+      {
+         "id":1,
+         "name":"Drinking Buddy",
+         "img":"db.png",
+         "year":2011,
+         "link":"https://market.android.com/details?id=com.skorulis.buddy&amp;feature=search_result",
+         "description":"This app was supposed to help with calculating how drunk you are but it was difficult to keep the accuracy up. Might have been a decent app if I spent the time to add more features",
+         "isFirst":false
+      },
+      {
+         "id":2,
+         "name":"Splatballs wallpaper",
+         "img":"splat2.png",
+         "year":2011,
+         "link":"https://market.android.com/details?id=com.skorulis.splat.wp&amp;feature=search_result",
+         "description":"Splatballs was a java browser game that I wrote so long ago I no longer have the code for. I made this wallpaper to emulate the paint splats that I created for the game.",
+         "isFirst":false
+      }
+   ],
+   "iOSApps":[
+      {
+         "id":0,
+         "name":"Phringly",
+         "img":"phringly.jpg",
+         "year":2013,
+         "link":"https://itunes.apple.com/us/app/phringly/id661740558",
+         "description":"This was a request to be able to make these rotated images. It's a very simple app that does one thing well."
+      }
+   ],
+   "flashApps":[
+      {
+         "id":0,
+         "name":"Swarmers",
+         "img":"swarm.png",
+         "year":2005,
+         "width":550,
+         "height":400,
+         "description":"The first flash game I wrote after moving away from Java.",
+         "filename": "/content/flash/swarm.swf",
+         "link":"http://www.kongregate.com/games/skorulis/swarmers"
+      },
+      {
+         "id":1,
+         "name":"Swarmers 2",
+         "img":"swarm2.png",
+         "year":2005,
+         "width":640,
+         "height":480,
+         "description":"A sequel to the originl with more levels and features. Didn't really expand the gameplay enough to keep it interesting though",
+         "filename":"/content/flash/swarm2.swf",
+         "link":"http://www.flashtrackz.com/games/4785/swarmers-2-flow.html"
+      },
+      {
+         "id":2,
+         "name":"A.D.A.M",
+         "img":"adam.png",
+         "year":2006,
+         "width":640,
+         "height":480,
+         "description":"An experiment with making more hand stlye drawings. It didn't come out particularly nice.",
+         "filename":"/content/flash/adam.swf",
+         "link":"http://www.kongregate.com/games/skorulis/a-d-a-m"
+      }
+   ],
+   "htmlApps":[
+      {
+         "name":"London housing price map",
+         "year":2012,
+         "img":"london.png",
+         "link":"london/index.html",
+         "description":"When I first moved to London I generated this map based off data from another website to get a feel for how expensive different areas were"
+      },
+      {
+         "name":"The big album of beers",
+         "year":2013,
+         "img":"beer.png",
+         "link":"beer/index.html",
+         "description":"For a long time I've been taking photos of beer and storing them in facebook. To keep track of what I've had I wrote scripts that pull all of the beers from facebook into a format that is easier to search."
+      }
+   ]
+}

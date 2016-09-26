@@ -1,0 +1,22 @@
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <a class="navbar-brand" href="#"><img src="assets/favicon/icon-40.png"></a>
+      <div class="container">
+        <div class="navbar-header">
+          <ul class="nav nav-pills">
+            {% assign pages_list = site.pages | sort: 'order' %}
+            {% assign group = 'navigation' %}
+            {% for node in pages_list %}
+              {% if group == node.group %}
+                {% if page.url == node.url %}
+                  <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+                {% else %}
+                  <li><a href="{{node.url}}">{{node.title}}</a></li>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+            <li><a href="http://blog.skorulis.com/">Blog</a></li>
+            <li><a href="http://skorulis.com/portfolio">Portfolio</a></li>          
+          </ul> 
+        </div>
+      </div>
+    </div>

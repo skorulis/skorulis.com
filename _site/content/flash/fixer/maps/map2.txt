@@ -1,0 +1,10 @@
+{
+	"width":11,
+	"height":11,
+	"fixtures":[ 
+		{"type":1,"x":3,"y":3,"width":2,"height":2},
+		{"type":3,"x":0,"y":0,"width":10,"height":10},
+		{"type":2,"x":0,"y":5,"id":1,"link":"map1.txt"}
+	]
+	
+}
