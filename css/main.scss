@@ -1,0 +1,193 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "bootstrap.min",
+        "bootstrap-theme.min",
+        "normalize",
+        "pure-min",
+        "grids-responsive-min"
+
+;
+
+
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.container .credit {
+  margin: 20px 0;
+}
+
+.main-content {
+  margin-top: 80px;
+  padding-bottom:12px;
+}
+
+.navbar-brand {
+  padding:5px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.nav li a {
+  font-weight:bold;
+  line-height: 30px;
+  color:#555;
+  font-size:13pt;
+  border-radius: 0px;
+}
+
+.nav li.active > a {
+  background-color:#90b8c4;
+  color:#FFF;
+}
+
+.nav li.active > a:hover{
+  background-color:#893a2c;
+  color:#FFF;
+}
+
+.nav li.active > a:focus{
+  background-color:#893a2c;
+  color:#FFF;
+}
+
+.navbar {
+  background: rgba(229, 229, 229, 0.8); 
+  background-image: none;
+  color: #FFFFFF;
+    background-repeat: no-repeat;
+    border-width:1px;
+    border-color: #fac223;
+}
+
+.container {
+  margin-left: 10px;
+}
+
+.news-list {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.news-item {
+  padding:8px;
+  margin-top:20px;
+  margin-bottom:20px;
+  background-color:#E5E5E5;
+  border-width:1px;
+  border-style:solid;
+    border-color: #90b8c4;
+}
+
+.flash-container {
+  background-color:#E5E5E5;
+  border-width:1px;
+  border-style:solid;
+    border-color: #90b8c4;
+    margin:12px;
+    padding:12px;
+    display:table;
+}
+
+.news-date {
+  font-size:12px;
+  color:#98999e;
+}
+
+.news-title {
+  
+}
+
+.section-title {
+  padding:10px;
+  padding-left:20px;
+  font-size:18pt;
+  background-color: #fac223;
+}
+
+.thumbnail .caption {
+  min-height:60px;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+.thumbnail .caption h3 {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.thumbnail {
+  border-radius:0;
+  background-image: none;
+  border-color: #90b8c4;
+  background-color:#E5E5E5;
+}
+
+.col-sm-6 {
+  padding-bottom:10px;
+  padding-left:6px;
+  padding-right:6px;
+}
+
+.pure-g > div[class*="pure-u-"] {
+    padding:2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.app-wrapper {
+  display:flex;
+  flex-wrap:wrap;
+  border: solid 1px #90b8c4;
+  background-color:#E5E5E5;
+  margin:10px;
+  padding:4px;
+}
+
+.app-img {
+  max-width:100%;
+  width:auto;
+  height:auto;
+}
+
+.app-text {
+  flex: 1 1 200px;
+  display:flex;
+  flex-direction:column;
+  padding:0px 10px;
+
+}
+
+.app-text * {
+  flex-shrink:1;
+}

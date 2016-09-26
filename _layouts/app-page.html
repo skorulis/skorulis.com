@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="main-content">
+
+    {% for app in site.data.apps[page.appKey] %}
+    	<div class="app-wrapper">
+    		<div class="img-wrapper">
+    			<a href="{{app.link}}">
+	    			<img src="/assets/apps/{{app.img }}" class="app-img">
+	    		</a>
+	    	</div>
+			<div class="app-text">
+				<h2>{{app.name}} ({{app.year}})</h2>
+				<p>{{app.description}}</p>
+				{% if app.filename %}
+					<a href="{{app.link}}"><h3>Link<h3></a>
+				{% else %}
+					<a href="{{app.link}}"><h3>Link<h3></a>
+				{% endif %}
+			</div>
+		</div>
+
+    {% endfor %}
+
+    {% include analytics.html %}
+    {% include footer.html %}
+
+  </body>
+
+</html>
+
+

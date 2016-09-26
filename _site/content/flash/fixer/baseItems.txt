@@ -1,0 +1,9 @@
+{"items":
+	[
+		{"name":"sword","weight":5},
+		{"name":"spade","weight":5},
+		{"name":"mace","weight":5},
+		{"name":"club","weight":5}
+
+	]
+}
