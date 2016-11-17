@@ -75,6 +75,20 @@
    ],
    "htmlApps":[
       {
+         "name":"Beermoney Balances",
+         "year":2016,
+         "img":"bmb.png",
+         "link":"http://beermoneybalances.skorulis.com",
+         "description":"Chrome and firefox extension to track balances across multiple beermoney sites."
+      },
+      {
+         "name":"Positly",
+         "year":2016,
+         "img":"positly.png",
+         "link":"https://positly.com",
+         "description":"Experiment in tracking peoples opinions. Built using the play framework"
+      },
+      {
          "name":"London housing price map",
          "year":2012,
          "img":"london.png",
@@ -85,7 +99,7 @@
          "name":"The big album of beers",
          "year":2013,
          "img":"beer.png",
-         "link":"beer/index.html",
+         "link":"http://beer.skorulis.com",
          "description":"For a long time I've been taking photos of beer and storing them in facebook. To keep track of what I've had I wrote scripts that pull all of the beers from facebook into a format that is easier to search."
       }
    ]
