@@ -75,6 +75,13 @@
    ],
    "htmlApps":[
       {
+         "name":"Skorubrew",
+         "year":2016,
+         "img":"homebrew.png",
+         "link":"http://homebrew.skorulis.com/",
+         "description":"Site to keep track of all my homebrew recipes"
+      },
+      {
          "name":"Beermoney Balances",
          "year":2016,
          "img":"bmb.png",
@@ -99,7 +106,7 @@
          "name":"The big album of beers",
          "year":2013,
          "img":"beer.png",
-         "link":"http://beer.skorulis.com",
+         "link":"http://bigalbumofbeers.com/",
          "description":"For a long time I've been taking photos of beer and storing them in facebook. To keep track of what I've had I wrote scripts that pull all of the beers from facebook into a format that is easier to search."
       }
    ]
