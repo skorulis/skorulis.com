@@ -21,7 +21,7 @@
 				<p>{{app.description}}</p>
 				{% if app.filename %}
 					<a href="{{app.link}}"><h3>Link<h3></a>
-				{% else %}
+				{% elsif app.link %}
 					<a href="{{app.link}}"><h3>Link<h3></a>
 				{% endif %}
 			</div>

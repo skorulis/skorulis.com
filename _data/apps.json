@@ -92,8 +92,7 @@
          "name":"Positly",
          "year":2016,
          "img":"positly.png",
-         "link":"https://positly.com",
-         "description":"Experiment in tracking peoples opinions. Built using the play framework"
+         "description":"Experiment in tracking peoples opinions. Built using the play framework. No longer active."
       },
       {
          "name":"London housing price map",
