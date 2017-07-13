@@ -6,7 +6,7 @@
          "img":"pel.png",
          "year":2011,
          "link":"https://market.android.com/details?id=com.skorulis.PEL&amp;feature=search_result",
-         "description":"I wrote this game to mess around with modular game components and because it's a simple game that I really liked.",
+         "description":"I wrote this game to mess around with modular game components and because it's a simple game that I really enjoyed playing a long time ago. Turned out my modular implementation was way too inefficient to scale to any sort of larger game but was worth a try",
          "isFirst":true
       },
       {
@@ -15,7 +15,7 @@
          "img":"db.png",
          "year":2011,
          "link":"https://market.android.com/details?id=com.skorulis.buddy&amp;feature=search_result",
-         "description":"This app was supposed to help with calculating how drunk you are but it was difficult to keep the accuracy up. Might have been a decent app if I spent the time to add more features",
+         "description":"This app was supposed to help with calculating how drunk you are but it was difficult to keep the accuracy up. Might have been a decent app if I spent the time to add more features or heavily localise it to the way people drink in different countries",
          "isFirst":false
       },
       {
@@ -24,7 +24,7 @@
          "img":"splat2.png",
          "year":2011,
          "link":"https://market.android.com/details?id=com.skorulis.splat.wp&amp;feature=search_result",
-         "description":"Splatballs was a java browser game that I wrote so long ago I no longer have the code for. I made this wallpaper to emulate the paint splats that I created for the game.",
+         "description":"Splatballs was a java browser game that I wrote so long ago I no longer have the code for. I made this wallpaper to emulate the paint splats that I created for the game. Really didn't take long to make but somehow felt a little bit flat as a wallpaper",
          "isFirst":false
       }
    ],
@@ -35,7 +35,7 @@
          "img":"phringly.jpg",
          "year":2013,
          "link":"https://itunes.apple.com/us/app/phringly/id661740558",
-         "description":"This was a request to be able to make these rotated images. It's a very simple app that does one thing well."
+         "description":"This was a request to be able to make these rotated images. It's a very simple app that does one thing well. The idea came from a post on reddit where someone wanted to make this exact kind of image."
       }
    ],
    "flashApps":[
@@ -46,7 +46,7 @@
          "year":2005,
          "width":550,
          "height":400,
-         "description":"The first flash game I wrote after moving away from Java.",
+         "description":"The first flash game I wrote after moving away from Java. Very simple concept that probably could have done well if it was a bit more refined and had something extra to make it a little more fun. The sound especially was a big mistake",
          "filename": "/content/flash/swarm.swf",
          "link":"http://www.kongregate.com/games/skorulis/swarmers"
       },
@@ -57,7 +57,7 @@
          "year":2005,
          "width":640,
          "height":480,
-         "description":"A sequel to the originl with more levels and features. Didn't really expand the gameplay enough to keep it interesting though",
+         "description":"A sequel to the originl with more levels and features. Didn't really expand the gameplay enough to keep it interesting though. This is a good example of bulking up a game without really making it more fun. Not sure if anyone ever even finished it",
          "filename":"/content/flash/swarm2.swf",
          "link":"http://www.flashtrackz.com/games/4785/swarmers-2-flow.html"
       },
@@ -68,7 +68,7 @@
          "year":2006,
          "width":640,
          "height":480,
-         "description":"An experiment with making more hand stlye drawings. It didn't come out particularly nice.",
+         "description":"An experiment with making more hand stlye drawings. It didn't come out particularly nice and the gameplay was not very engaging",
          "filename":"/content/flash/adam.swf",
          "link":"http://www.kongregate.com/games/skorulis/a-d-a-m"
       }
@@ -79,34 +79,34 @@
          "year":2016,
          "img":"homebrew.png",
          "link":"http://homebrew.skorulis.com/",
-         "description":"Site to keep track of all my homebrew recipes"
+         "description":"Site to keep track of all my homebrew recipes. Constantly adding new ones as I strive to brew the perfect beer."
       },
       {
          "name":"Beermoney Balances",
          "year":2016,
          "img":"bmb.png",
          "link":"http://beermoneybalances.skorulis.com",
-         "description":"Chrome and firefox extension to track balances across multiple beermoney sites."
+         "description":"Chrome and firefox extension to track balances across multiple beermoney sites. If you're involved in the beermoney space then this is a great way to keep track of how well each site is performing for you."
       },
       {
          "name":"Positly",
          "year":2016,
          "img":"positly.png",
-         "description":"Experiment in tracking peoples opinions. Built using the play framework. No longer active."
+         "description":"Experiment in tracking peoples opinions. Built using the play framework. No longer active after I couldn't get users to stay interested. Was a good learning experience in both Scala website development and the pains of trying to engage users."
       },
       {
          "name":"London housing price map",
          "year":2012,
          "img":"london.png",
          "link":"london/index.html",
-         "description":"When I first moved to London I generated this map based off data from another website to get a feel for how expensive different areas were"
+         "description":"When I first moved to London I generated this map based off data from another website to get a feel for how expensive different areas were. I no longer live in London so haven't been updating this with the latest prices."
       },
       {
          "name":"The big album of beers",
          "year":2013,
          "img":"beer.png",
          "link":"http://bigalbumofbeers.com/",
-         "description":"For a long time I've been taking photos of beer and storing them in facebook. To keep track of what I've had I wrote scripts that pull all of the beers from facebook into a format that is easier to search."
+         "description":"For a long time I've been taking photos of beer and storing them in facebook. To keep track of what I've had I wrote scripts that pull all of the beers from facebook into a format that is easier to search. It's also a testing ground for any other beer related ideas that I have."
       }
    ]
 }
