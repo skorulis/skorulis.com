@@ -1,5 +1,10 @@
 [
 	{
+		"title": "Beer Labels",
+		"date": "16-08-2017 17:00",
+		"text": "If you're wondering how I make the labels for all of my homebrew then wonder no more. It's a quick and dirty web page that I put together, you can see it <a href=\"http://beerlabels.skorulis.com\">here</a>. I just fill in the values, save the resulting image and print it on my home printer. If only attaching the labels to the bottles was as easy."
+	},
+	{
 		"title": "Journal",
 		"date": "06-07-2017 17:00",
 		"text": "I've started keeping a <a href=\"http://journal.skorulis.com\">daily journal</a> of the various things I'm doing. Mostly for personal reflection."
