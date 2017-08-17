@@ -63,6 +63,14 @@ App.ApplicationView = Ember.View.extend({
 
 var portfolio = [
 	{
+		name: 'Sydney Beer Guide',
+		year: '2017',
+		divId: 'beerguide',
+		images: ["beerguide1.jpg","beerguide2.jpg","beerguide3.jpg","beerguide4.jpg"],
+		desc: 'An app to consolidate all the information I\'ve collected over the years about the Sydney craft beer scene. Focuses on providing information over a highly customised UI.',
+		involvement: "Personal app which reflects another website that I've built. I had to design and develop the app as well as source or generate the content."
+	},
+	{
 		name: 'Love Your Leftovers',
 		year: '2016',
 		divId: 'lylo',

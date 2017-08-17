@@ -30,6 +30,14 @@
    ],
    "iOSApps":[
       {
+         "id":1,
+         "name":"Sydney Beer Guide",
+         "img":"beerguide.jpg",
+         "year":2017,
+         "link":"https://itunes.apple.com/us/app/sydney-beer-guide/id1270618318?ls=1&mt=8",
+         "description":"An app to consolidate all the information I've collected over the years about the Sydney craft beer scene. Focuses on providing information over a highly customised UI."
+      },
+      {
          "id":0,
          "name":"Phringly",
          "img":"phringly.jpg",
