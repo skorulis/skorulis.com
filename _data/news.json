@@ -1,5 +1,10 @@
 [
 	{
+		"title": "<a href=\"https://itunes.apple.com/us/app/sydney-beer-guide/id1270618318?ls=1&mt=8\">Sydney Beer Guide</a>",
+		"date": "17-08-2017 17:00",
+		"text": "In my spare time I've been putting together some information about the best places in Sydney to get craft beer. It's <a href=\"https://itunes.apple.com/us/app/sydney-beer-guide/id1270618318?ls=1&mt=8\">available on iOS</a> if you want to take a look"
+	},
+	{
 		"title": "Beer Labels",
 		"date": "16-08-2017 17:00",
 		"text": "If you're wondering how I make the labels for all of my homebrew then wonder no more. It's a quick and dirty web page that I put together, you can see it <a href=\"http://beerlabels.skorulis.com\">here</a>. I just fill in the values, save the resulting image and print it on my home printer. If only attaching the labels to the bottles was as easy."
