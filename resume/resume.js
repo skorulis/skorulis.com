@@ -63,14 +63,7 @@ function Exp(name,val,wid,hgt) {
 }
 
 function toggle(item) {
-	var x =item.id.substring(0,item.id.length-1);
-	if(item.getElementsByTagName("p")[0].innerHTML=='+') {
-		item.getElementsByTagName("p")[0].innerHTML = "-";
-		document.getElementById(x).style.display = 'block';
-	} else {
-		item.getElementsByTagName("p")[0].innerHTML = "+";
-		document.getElementById(x).style.display = 'none';
-	}
+
 }
 
 function expand(item) {
