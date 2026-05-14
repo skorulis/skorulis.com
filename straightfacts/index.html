@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <title>Straight Facts: Daily Trivia</title>
+  <meta name="description" content="Experience a daily fact app with zero ads and no subscriptions. 1,000+ hand-curated facts with links for deep learning. Pure knowledge, minimal design." />
+  <meta property="og:title" content="Straight Facts: Daily Trivia" />
+  <meta property="og:description" content="Experience a daily fact app with zero ads and no subscriptions. 1,000+ hand-curated facts with links for deep learning. Pure knowledge, minimal design." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/screenshots/screen1.jpeg" />
+  <!-- After deploy: set og:url and use an absolute og:image URL (https://your-domain/…/screen1.jpeg) for best social previews. -->
+  <style>
+    :root {
+      --cream: #f5f1e8;
+      --ink: #1a2430;
+      --navy: #2c3e50;
+      --navy-soft: #3d566e;
+      --sage: #8fa396;
+      --sage-muted: #a8b8ac;
+      --white: #ffffff;
+      --max: 38rem;
+      --space-xs: 0.375rem;
+      --space-sm: 0.625rem;
+      --space-md: 1rem;
+      --space-lg: 1.375rem;
+      --space-xl: 2rem;
+      --radius: 0.625rem;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.65;
+      color: var(--ink);
+      background: var(--cream);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--navy-soft);
+      text-decoration-color: color-mix(in srgb, var(--sage) 55%, transparent);
+      text-underline-offset: 0.15em;
+    }
+
+    a:hover {
+      color: var(--navy);
+    }
+
+    .wrap {
+      max-width: calc(var(--max) + 4rem);
+      margin: 0 auto;
+      padding: var(--space-lg) var(--space-lg) var(--space-xl);
+    }
+
+    header.site-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: var(--space-md);
+      padding-bottom: var(--space-xl);
+      border-bottom: 1px solid color-mix(in srgb, var(--navy) 14%, transparent);
+    }
+
+    .site-title {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--navy);
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-md);
+      font-size: 0.9375rem;
+    }
+
+    nav a {
+      color: var(--navy-soft);
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+    }
+
+    section {
+      padding: var(--space-xl) 0;
+      border-bottom: 1px solid color-mix(in srgb, var(--navy) 10%, transparent);
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    h1 {
+      margin: 0 0 var(--space-sm);
+      font-size: clamp(1.75rem, 5vw, 2.25rem);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--navy);
+      line-height: 1.2;
+    }
+
+    .tagline {
+      margin: 0 0 var(--space-lg);
+      font-size: 1.125rem;
+      color: var(--navy-soft);
+      font-weight: 500;
+    }
+
+    .lead {
+      margin: 0 0 var(--space-lg);
+      max-width: var(--max);
+    }
+
+    .promo {
+      margin: 0 0 var(--space-xl);
+      padding: var(--space-md) var(--space-lg);
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: 0 1px 0 color-mix(in srgb, var(--navy) 8%, transparent);
+      max-width: var(--max);
+      font-size: 0.98rem;
+      color: var(--navy-soft);
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-md);
+      align-items: center;
+    }
+
+    /* Official “Download on the App Store” artwork (Apple Marketing Resources). */
+    .app-store-badge {
+      display: inline-block;
+      line-height: 0;
+      text-decoration: none;
+      border-radius: 0.35rem;
+      transition: opacity 0.15s ease;
+    }
+
+    .app-store-badge:hover {
+      opacity: 0.88;
+    }
+
+    .app-store-badge:focus-visible {
+      outline: 2px solid var(--navy-soft);
+      outline-offset: 3px;
+    }
+
+    .app-store-badge img {
+      display: block;
+      height: 40px;
+      width: auto;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.65rem 1.25rem;
+      font-size: 0.9375rem;
+      font-weight: 600;
+      color: var(--cream);
+      background: var(--navy);
+      border-radius: var(--radius);
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
+    }
+
+    .btn:hover {
+      background: var(--navy-soft);
+      color: var(--cream);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--navy-soft);
+      box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--navy) 22%, transparent);
+    }
+
+    .btn-secondary:hover {
+      background: color-mix(in srgb, var(--navy) 6%, transparent);
+      color: var(--navy);
+    }
+
+    h2 {
+      margin: 0 0 var(--space-lg);
+      font-size: 1.125rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--navy-soft);
+    }
+
+    .highlights {
+      display: grid;
+      gap: var(--space-lg);
+    }
+
+    @media (min-width: 42rem) {
+      .highlights {
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--space-xl);
+      }
+    }
+
+    .highlight h3 {
+      margin: 0 0 var(--space-sm);
+      font-size: 1.0625rem;
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.35;
+    }
+
+    .highlight p {
+      margin: 0;
+      font-size: 0.9375rem;
+      color: var(--navy-soft);
+    }
+
+    .screenshots {
+      display: grid;
+      gap: var(--space-lg);
+      justify-items: center;
+    }
+
+    @media (min-width: 48rem) {
+      .screenshots {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: start;
+      }
+    }
+
+    .screenshots figure {
+      margin: 0;
+      max-width: 15rem;
+    }
+
+    .screenshots img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .screenshots figcaption {
+      margin-top: var(--space-sm);
+      font-size: 0.8125rem;
+      color: var(--navy-soft);
+      text-align: center;
+    }
+
+    .support-list,
+    .privacy p {
+      margin: 0;
+      max-width: var(--max);
+      color: var(--navy-soft);
+    }
+
+    .support-list {
+      padding-left: 1.25rem;
+    }
+
+    .support-list li {
+      margin-bottom: var(--space-sm);
+    }
+
+    .contact-block {
+      margin-top: var(--space-lg);
+      font-size: 0.9375rem;
+    }
+
+    footer {
+      padding: var(--space-xl) 0 var(--space-lg);
+      font-size: 0.8125rem;
+      color: var(--navy-soft);
+      line-height: 1.6;
+    }
+
+    footer p {
+      margin: 0 0 var(--space-sm);
+    }
+
+    footer a {
+      color: var(--navy-soft);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <p class="site-title">Straight Facts</p>
+      <nav aria-label="On this page">
+        <ul>
+          <li><a href="#highlights">Highlights</a></li>
+          <li><a href="#screenshots">Screenshots</a></li>
+          <li><a href="#support">Support</a></li>
+          <li><a href="#privacy">Privacy</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="top" aria-labelledby="hero-heading">
+        <h1 id="hero-heading">Straight Facts: Daily Trivia</h1>
+        <p class="tagline">Zero Fluff. Just Daily Facts</p>
+        <p class="lead">
+          In a world of information overload, Straight Facts delivers clarity. We’ve stripped away the noise to bring you a daily dose of knowledge that is hand-curated, verified, and beautifully presented. Whether you’re looking to level up your general knowledge or just satisfy a moment of curiosity, Straight Facts provides a calm, focused space to learn.
+        </p>
+        <p class="promo">
+          Experience a daily fact app with zero ads and no subscriptions. 1,000+ hand-curated facts with links for deep learning. Pure knowledge, minimal design.
+        </p>
+        <div class="cta-row">
+          <a class="app-store-badge" href="https://apps.apple.com/us/app/straight-facts-daily-trivia/id6767988129" target="_blank" rel="noopener noreferrer">
+            <img src="assets/download-on-the-app-store.svg" width="120" height="40" alt="Download on the App Store" decoding="async" />
+          </a>
+          <a class="btn btn-secondary" href="mailto:skorulis@gmail.com">Contact support</a>
+        </div>
+      </section>
+
+      <section id="highlights" aria-labelledby="highlights-heading">
+        <h2 id="highlights-heading">Highlights</h2>
+        <div class="highlights">
+          <article class="highlight">
+            <h3>1,000+ Hand-Curated Facts</h3>
+            <p>Every single fact is manually vetted for accuracy to give you high-quality insights across science, history, and more.</p>
+          </article>
+          <article class="highlight">
+            <h3>Deep Dives Included</h3>
+            <p>Curious for more? Every fact includes verified links for further reading, allowing you to explore the “why” and “how” behind the headline.</p>
+          </article>
+          <article class="highlight">
+            <h3>Minimal &amp; Calming Design</h3>
+            <p>Built for focus. Enjoy a clean interface designed to be easy on the eyes and a peaceful part of your daily routine.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="screenshots" aria-labelledby="screenshots-heading">
+        <h2 id="screenshots-heading">Screenshots</h2>
+        <div class="screenshots">
+          <figure>
+            <img src="assets/screenshots/fact.png" width="1179" height="2556" alt="Straight Facts home screen showing the daily fact in a calm layout." loading="lazy" decoding="async" />
+            <figcaption>Daily fact</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/notification.png" width="1179" height="2556" alt="Notification example" loading="lazy" decoding="async" />
+            <figcaption>Notifications</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/settings.png" width="1179" height="2556" alt="Straight Facts settings or detail view with minimal typography." loading="lazy" decoding="async" />
+            <figcaption>Settings &amp; preferences</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="support" aria-labelledby="support-heading">
+        <h2 id="support-heading">Support</h2>
+        <ul class="support-list">
+          <li>For questions or feedback, email us and we’ll get back to you as soon as we can.</li>
+        </ul>
+        <p class="contact-block">
+          <a href="mailto:skorulis@gmail.com">skorulis@gmail.com</a>
+        </p>
+      </section>
+
+      <section id="privacy" aria-labelledby="privacy-heading">
+        <h2 id="privacy-heading">Privacy</h2>
+        <div class="privacy">
+          <p>
+            The app is offline-first: your preferences and activity stay on your device. Analytics are not linked to your identity.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Alex Skorulis</p>
+    </footer>
+  </div>
+</body>
+</html>
