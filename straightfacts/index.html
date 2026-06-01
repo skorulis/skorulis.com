@@ -8,399 +8,188 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
   <title>Straight Facts: Daily Trivia</title>
-  <meta name="description" content="Experience a daily fact app with zero ads and no subscriptions. 1,000+ hand-curated facts with links for deep learning. Pure knowledge, minimal design." />
+  <meta name="description" content="Zero fluff. Just daily facts. 1,000+ hand-curated facts with deep-dive links — no ads, no subscriptions." />
+  <meta name="apple-itunes-app" content="app-id=6767988129" />
   <meta property="og:title" content="Straight Facts: Daily Trivia" />
-  <meta property="og:description" content="Experience a daily fact app with zero ads and no subscriptions. 1,000+ hand-curated facts with links for deep learning. Pure knowledge, minimal design." />
+  <meta property="og:description" content="Zero fluff. Just daily facts. 1,000+ hand-curated facts with deep-dive links — no ads, no subscriptions." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/screenshots/screen1.jpeg" />
-  <!-- After deploy: set og:url and use an absolute og:image URL (https://your-domain/…/screen1.jpeg) for best social previews. -->
-  <style>
-    :root {
-      --cream: #f5f1e8;
-      --ink: #1a2430;
-      --navy: #2c3e50;
-      --navy-soft: #3d566e;
-      --sage: #8fa396;
-      --sage-muted: #a8b8ac;
-      --white: #ffffff;
-      --max: 38rem;
-      --space-xs: 0.375rem;
-      --space-sm: 0.625rem;
-      --space-md: 1rem;
-      --space-lg: 1.375rem;
-      --space-xl: 2rem;
-      --radius: 0.625rem;
-    }
-
-    *,
-    *::before,
-    *::after {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-size: 1.0625rem;
-      line-height: 1.65;
-      color: var(--ink);
-      background: var(--cream);
-      -webkit-font-smoothing: antialiased;
-    }
-
-    a {
-      color: var(--navy-soft);
-      text-decoration-color: color-mix(in srgb, var(--sage) 55%, transparent);
-      text-underline-offset: 0.15em;
-    }
-
-    a:hover {
-      color: var(--navy);
-    }
-
-    .wrap {
-      max-width: calc(var(--max) + 4rem);
-      margin: 0 auto;
-      padding: var(--space-lg) var(--space-lg) var(--space-xl);
-    }
-
-    header.site-header {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline;
-      justify-content: space-between;
-      gap: var(--space-md);
-      padding-bottom: var(--space-xl);
-      border-bottom: 1px solid color-mix(in srgb, var(--navy) 14%, transparent);
-    }
-
-    .site-title {
-      margin: 0;
-      font-size: 1rem;
-      font-weight: 600;
-      letter-spacing: 0.02em;
-      color: var(--navy);
-    }
-
-    nav ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      display: flex;
-      flex-wrap: wrap;
-      gap: var(--space-md);
-      font-size: 0.9375rem;
-    }
-
-    nav a {
-      color: var(--navy-soft);
-      text-decoration: none;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-      text-underline-offset: 0.2em;
-    }
-
-    section {
-      padding: var(--space-xl) 0;
-      border-bottom: 1px solid color-mix(in srgb, var(--navy) 10%, transparent);
-    }
-
-    section:last-of-type {
-      border-bottom: none;
-    }
-
-    h1 {
-      margin: 0 0 var(--space-sm);
-      font-size: clamp(1.75rem, 5vw, 2.25rem);
-      font-weight: 600;
-      letter-spacing: -0.02em;
-      color: var(--navy);
-      line-height: 1.2;
-    }
-
-    .tagline {
-      margin: 0 0 var(--space-lg);
-      font-size: 1.125rem;
-      color: var(--navy-soft);
-      font-weight: 500;
-    }
-
-    .lead {
-      margin: 0 0 var(--space-lg);
-      max-width: var(--max);
-    }
-
-    .promo {
-      margin: 0 0 var(--space-xl);
-      padding: var(--space-md) var(--space-lg);
-      background: var(--white);
-      border-radius: var(--radius);
-      box-shadow: 0 1px 0 color-mix(in srgb, var(--navy) 8%, transparent);
-      max-width: var(--max);
-      font-size: 0.98rem;
-      color: var(--navy-soft);
-    }
-
-    .cta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: var(--space-md);
-      align-items: center;
-    }
-
-    /* Official “Download on the App Store” artwork (Apple Marketing Resources). */
-    .app-store-badge {
-      display: inline-block;
-      line-height: 0;
-      text-decoration: none;
-      border-radius: 0.35rem;
-      transition: opacity 0.15s ease;
-    }
-
-    .app-store-badge:hover {
-      opacity: 0.88;
-    }
-
-    .app-store-badge:focus-visible {
-      outline: 2px solid var(--navy-soft);
-      outline-offset: 3px;
-    }
-
-    .app-store-badge img {
-      display: block;
-      height: 40px;
-      width: auto;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 0.65rem 1.25rem;
-      font-size: 0.9375rem;
-      font-weight: 600;
-      color: var(--cream);
-      background: var(--navy);
-      border-radius: var(--radius);
-      text-decoration: none;
-      border: none;
-      cursor: pointer;
-      transition: background 0.15s ease, opacity 0.15s ease;
-    }
-
-    .btn:hover {
-      background: var(--navy-soft);
-      color: var(--cream);
-    }
-
-    .btn-secondary {
-      background: transparent;
-      color: var(--navy-soft);
-      box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--navy) 22%, transparent);
-    }
-
-    .btn-secondary:hover {
-      background: color-mix(in srgb, var(--navy) 6%, transparent);
-      color: var(--navy);
-    }
-
-    h2 {
-      margin: 0 0 var(--space-lg);
-      font-size: 1.125rem;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: var(--navy-soft);
-    }
-
-    .highlights {
-      display: grid;
-      gap: var(--space-lg);
-    }
-
-    @media (min-width: 42rem) {
-      .highlights {
-        grid-template-columns: repeat(3, 1fr);
-        gap: var(--space-xl);
-      }
-    }
-
-    .highlight h3 {
-      margin: 0 0 var(--space-sm);
-      font-size: 1.0625rem;
-      font-weight: 600;
-      color: var(--navy);
-      line-height: 1.35;
-    }
-
-    .highlight p {
-      margin: 0;
-      font-size: 0.9375rem;
-      color: var(--navy-soft);
-    }
-
-    .screenshots {
-      display: grid;
-      gap: var(--space-lg);
-      justify-items: center;
-    }
-
-    @media (min-width: 48rem) {
-      .screenshots {
-        grid-template-columns: repeat(3, 1fr);
-        align-items: start;
-      }
-    }
-
-    .screenshots figure {
-      margin: 0;
-      max-width: 15rem;
-    }
-
-    .screenshots img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    .screenshots figcaption {
-      margin-top: var(--space-sm);
-      font-size: 0.8125rem;
-      color: var(--navy-soft);
-      text-align: center;
-    }
-
-    .support-list,
-    .privacy p {
-      margin: 0;
-      max-width: var(--max);
-      color: var(--navy-soft);
-    }
-
-    .support-list {
-      padding-left: 1.25rem;
-    }
-
-    .support-list li {
-      margin-bottom: var(--space-sm);
-    }
-
-    .contact-block {
-      margin-top: var(--space-lg);
-      font-size: 0.9375rem;
-    }
-
-    footer {
-      padding: var(--space-xl) 0 var(--space-lg);
-      font-size: 0.8125rem;
-      color: var(--navy-soft);
-      line-height: 1.6;
-    }
-
-    footer p {
-      margin: 0 0 var(--space-sm);
-    }
-
-    footer a {
-      color: var(--navy-soft);
-    }
-  </style>
+  <meta property="og:url" content="https://straightfacts.skorulis.com/" />
+  <meta property="og:image" content="https://straightfacts.skorulis.com/assets/og-image.png" />
+  <link rel="stylesheet" href="css/landing.css" />
 </head>
 <body>
-  <div class="wrap">
-    <header class="site-header">
-      <p class="site-title">Straight Facts</p>
-      <nav aria-label="On this page">
-        <ul>
-          <li><a href="#highlights">Highlights</a></li>
-          <li><a href="#screenshots">Screenshots</a></li>
-          <li><a href="#support">Support</a></li>
-          <li><a href="#privacy">Privacy</a></li>
-        </ul>
-      </nav>
-    </header>
+  <div class="bg-mesh" aria-hidden="true"></div>
 
-    <main>
-      <section id="top" aria-labelledby="hero-heading">
-        <h1 id="hero-heading">Straight Facts: Daily Trivia</h1>
-        <p class="tagline">Zero Fluff. Just Daily Facts</p>
-        <p class="lead">
-          In a world of information overload, Straight Facts delivers clarity. We’ve stripped away the noise to bring you a daily dose of knowledge that is hand-curated, verified, and beautifully presented. Whether you’re looking to level up your general knowledge or just satisfy a moment of curiosity, Straight Facts provides a calm, focused space to learn.
-        </p>
-        <p class="promo">
-          Experience a daily fact app with zero ads and no subscriptions. 1,000+ hand-curated facts with links for deep learning. Pure knowledge, minimal design.
-        </p>
-        <div class="cta-row">
-          <a class="app-store-badge" href="https://apps.apple.com/us/app/straight-facts-daily-trivia/id6767988129" target="_blank" rel="noopener noreferrer">
+  <header class="site-nav">
+    <a class="site-nav__brand" href="#top">
+      <img class="site-nav__logo" src="assets/logo.png" width="80" height="80" alt="" decoding="async" />
+      Straight Facts
+    </a>
+    <nav aria-label="On this page">
+      <ul class="site-nav__links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#support">Support</a></li>
+      </ul>
+    </nav>
+    <div class="site-nav__cta">
+      <a class="app-store-badge" href="https://apps.apple.com/us/app/straight-facts-daily-trivia/id6767988129" target="_blank" rel="noopener noreferrer">
+        <img src="assets/download-on-the-app-store.svg" width="120" height="40" alt="Download on the App Store" decoding="async" />
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-heading">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <img class="hero__logo" src="assets/logo.png" width="144" height="144" alt="" decoding="async" />
+          <h1 class="hero__title" id="hero-heading">Zero fluff. Just daily facts.</h1>
+          <p class="hero__lead">
+            Hand-curated knowledge across science, history, and more — beautifully presented, with zero ads and no subscriptions.
+          </p>
+          <div class="hero__cta">
+            <a class="app-store-badge" href="https://apps.apple.com/us/app/straight-facts-daily-trivia/id6767988129" target="_blank" rel="noopener noreferrer">
+              <img src="assets/download-on-the-app-store.svg" width="120" height="40" alt="Download on the App Store" decoding="async" />
+            </a>
+            <a class="hero__scroll" href="#features">
+              See how it works
+              <span class="hero__scroll-chevron" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__media">
+            <video
+              class="hero__video"
+              src="assets/hero-demo.mp4"
+              poster="assets/screenshots/fact.png"
+              muted
+              playsinline
+              loop
+              preload="metadata"
+            ></video>
+            <img
+              class="hero__fallback"
+              src="assets/screenshots/fact.png"
+              width="1179"
+              height="2556"
+              alt=""
+              decoding="async"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="features" aria-labelledby="features-heading">
+      <div class="section__inner">
+        <h2 class="section__heading reveal" id="features-heading">Why Straight Facts?</h2>
+        <div class="features__grid">
+          <article class="feature-card reveal reveal-delay-1">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+              </svg>
+            </div>
+            <h3 class="feature-card__title">1,000+ curated facts</h3>
+            <p class="feature-card__desc">Every fact is manually vetted for accuracy — high-quality insights across science, history, and more.</p>
+          </article>
+          <article class="feature-card reveal reveal-delay-2">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Deep dives built in</h3>
+            <p class="feature-card__desc">Curious for more? Every fact includes verified links so you can explore the why and how behind the headline.</p>
+          </article>
+          <article class="feature-card reveal reveal-delay-3">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Calm by design</h3>
+            <p class="feature-card__desc">Zero ads, no subscriptions, offline-first. A clean interface designed to be a peaceful part of your daily routine.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="screenshots" aria-labelledby="screenshots-heading">
+      <div class="section__inner">
+        <h2 class="section__heading reveal" id="screenshots-heading">See it in action</h2>
+        <div class="gallery__grid">
+          <figure class="gallery__item reveal reveal-delay-1">
+            <img class="gallery__image" src="assets/screenshots/fact.png" width="1179" height="2556" alt="Straight Facts home screen showing the daily fact in a calm layout." loading="lazy" decoding="async" />
+            <figcaption class="gallery__caption">Daily fact</figcaption>
+          </figure>
+          <figure class="gallery__item reveal reveal-delay-2">
+            <img class="gallery__image" src="assets/screenshots/backgrounds.png" width="1470" height="3000" alt="Straight Facts fact screen with a striking cosmic whirlpool background." loading="lazy" decoding="async" />
+            <figcaption class="gallery__caption">Beautiful visuals</figcaption>
+          </figure>
+          <figure class="gallery__item reveal reveal-delay-3">
+            <img class="gallery__image" src="assets/screenshots/notification.png" width="1179" height="2556" alt="Notification reminding you of today's fact." loading="lazy" decoding="async" />
+            <figcaption class="gallery__caption">Notifications</figcaption>
+          </figure>
+          <figure class="gallery__item reveal reveal-delay-4">
+            <img class="gallery__image" src="assets/screenshots/settings.png" width="1179" height="2556" alt="Straight Facts settings with minimal typography." loading="lazy" decoding="async" />
+            <figcaption class="gallery__caption">Settings &amp; preferences</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section trust" aria-label="Trust highlights">
+      <div class="section__inner">
+        <div class="trust__strip reveal">
+          <span class="trust__item"><span class="trust__dot" aria-hidden="true"></span>No ads</span>
+          <span class="trust__item"><span class="trust__dot" aria-hidden="true"></span>No subscription</span>
+          <span class="trust__item"><span class="trust__dot" aria-hidden="true"></span>Offline-first</span>
+          <span class="trust__item"><span class="trust__dot" aria-hidden="true"></span>Privacy-respecting analytics</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band" aria-labelledby="cta-heading">
+      <div class="cta-band__inner reveal">
+        <img class="cta-band__logo" src="assets/logo.png" width="112" height="112" alt="" decoding="async" />
+        <h2 class="cta-band__title" id="cta-heading">Start learning today</h2>
+        <p class="cta-band__sub">Pure knowledge, minimal design — download free on the App Store.</p>
+        <div class="cta-band__actions">
+          <a class="app-store-badge app-store-badge--lg" href="https://apps.apple.com/us/app/straight-facts-daily-trivia/id6767988129" target="_blank" rel="noopener noreferrer">
             <img src="assets/download-on-the-app-store.svg" width="120" height="40" alt="Download on the App Store" decoding="async" />
           </a>
-          <a class="btn btn-secondary" href="mailto:skorulis@gmail.com">Contact support</a>
+          <p class="cta-band__support">Questions? <a href="mailto:skorulis@gmail.com">skorulis@gmail.com</a></p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="highlights" aria-labelledby="highlights-heading">
-        <h2 id="highlights-heading">Highlights</h2>
-        <div class="highlights">
-          <article class="highlight">
-            <h3>1,000+ Hand-Curated Facts</h3>
-            <p>Every single fact is manually vetted for accuracy to give you high-quality insights across science, history, and more.</p>
-          </article>
-          <article class="highlight">
-            <h3>Deep Dives Included</h3>
-            <p>Curious for more? Every fact includes verified links for further reading, allowing you to explore the “why” and “how” behind the headline.</p>
-          </article>
-          <article class="highlight">
-            <h3>Minimal &amp; Calming Design</h3>
-            <p>Built for focus. Enjoy a clean interface designed to be easy on the eyes and a peaceful part of your daily routine.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="screenshots" aria-labelledby="screenshots-heading">
-        <h2 id="screenshots-heading">Screenshots</h2>
-        <div class="screenshots">
-          <figure>
-            <img src="assets/screenshots/fact.png" width="1179" height="2556" alt="Straight Facts home screen showing the daily fact in a calm layout." loading="lazy" decoding="async" />
-            <figcaption>Daily fact</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/screenshots/notification.png" width="1179" height="2556" alt="Notification example" loading="lazy" decoding="async" />
-            <figcaption>Notifications</figcaption>
-          </figure>
-          <figure>
-            <img src="assets/screenshots/settings.png" width="1179" height="2556" alt="Straight Facts settings or detail view with minimal typography." loading="lazy" decoding="async" />
-            <figcaption>Settings &amp; preferences</figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section id="support" aria-labelledby="support-heading">
-        <h2 id="support-heading">Support</h2>
-        <ul class="support-list">
-          <li>For questions or feedback, email us and we’ll get back to you as soon as we can.</li>
-        </ul>
-        <p class="contact-block">
-          <a href="mailto:skorulis@gmail.com">skorulis@gmail.com</a>
+    <section class="section" id="support" aria-labelledby="support-heading">
+      <div class="section__inner">
+        <h2 class="section__heading reveal" id="support-heading">Support</h2>
+        <p class="support__text reveal">
+          For questions or feedback, email us and we&rsquo;ll get back to you as soon as we can.
+          <a class="support__email" href="mailto:skorulis@gmail.com">skorulis@gmail.com</a>
         </p>
-      </section>
+      </div>
+    </section>
+  </main>
 
-      <section id="privacy" aria-labelledby="privacy-heading">
-        <h2 id="privacy-heading">Privacy</h2>
-        <div class="privacy">
-          <p>
-            The app is offline-first: your preferences and activity stay on your device. Analytics are not linked to your identity.
-          </p>
-        </div>
-      </section>
-    </main>
+  <footer class="site-footer">
+    <ul class="site-footer__links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#screenshots">Screenshots</a></li>
+      <li><a href="#support">Support</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+      <li><a href="https://skorulis.com/">skorulis.com</a></li>
+    </ul>
+    <p class="site-footer__copy">&copy; 2026 Alex Skorulis</p>
+  </footer>
 
-    <footer>
-      <p>© 2026 Alex Skorulis</p>
-    </footer>
-  </div>
+  <script src="js/landing.js" defer></script>
 </body>
 </html>
