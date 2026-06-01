@@ -56,7 +56,7 @@
          "height":400,
          "description":"The first flash game I wrote after moving away from Java. Very simple concept that probably could have done well if it was a bit more refined and had something extra to make it a little more fun. The sound especially was a big mistake",
          "filename": "/content/flash/swarm.swf",
-         "link":"http://www.kongregate.com/games/skorulis/swarmers"
+         "link":"https://www.kongregate.com/games/skorulis/swarmers"
       },
       {
          "id":1,
@@ -67,7 +67,7 @@
          "height":480,
          "description":"A sequel to the originl with more levels and features. Didn't really expand the gameplay enough to keep it interesting though. This is a good example of bulking up a game without really making it more fun. Not sure if anyone ever even finished it",
          "filename":"/content/flash/swarm2.swf",
-         "link":"http://www.flashtrackz.com/games/4785/swarmers-2-flow.html"
+         "link":"https://www.flashtrackz.com/games/4785/swarmers-2-flow.html"
       },
       {
          "id":2,
@@ -78,7 +78,7 @@
          "height":480,
          "description":"An experiment with making more hand stlye drawings. It didn't come out particularly nice and the gameplay was not very engaging",
          "filename":"/content/flash/adam.swf",
-         "link":"http://www.kongregate.com/games/skorulis/a-d-a-m"
+         "link":"https://www.kongregate.com/games/skorulis/a-d-a-m"
       }
    ],
    "htmlApps":[
@@ -86,14 +86,14 @@
          "name":"Skorubrew",
          "year":2016,
          "img":"homebrew.png",
-         "link":"http://homebrew.skorulis.com/",
+         "link":"https://homebrew.skorulis.com/",
          "description":"Site to keep track of all my homebrew recipes. Constantly adding new ones as I strive to brew the perfect beer."
       },
       {
          "name":"Beermoney Balances",
          "year":2016,
          "img":"bmb.png",
-         "link":"http://beermoneybalances.skorulis.com",
+         "link":"https://beermoneybalances.skorulis.com",
          "description":"Chrome and firefox extension to track balances across multiple beermoney sites. If you're involved in the beermoney space then this is a great way to keep track of how well each site is performing for you."
       },
       {
@@ -113,7 +113,7 @@
          "name":"The big album of beers",
          "year":2013,
          "img":"beer.png",
-         "link":"http://bigalbumofbeers.com/",
+         "link":"https://bigalbumofbeers.com/",
          "description":"For a long time I've been taking photos of beer and storing them in facebook. To keep track of what I've had I wrote scripts that pull all of the beers from facebook into a format that is easier to search. It's also a testing ground for any other beer related ideas that I have."
       }
    ]

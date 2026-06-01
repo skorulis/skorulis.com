@@ -338,37 +338,15 @@ body.loaded .hero__scroll {
 }
 
 .product__mockup {
-  position: relative;
   width: min(16rem, 70vw);
-  padding: 0.625rem;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.02) 100%);
-  border-radius: 2.25rem;
-  border: 1px solid var(--glass-border);
-  box-shadow:
-    0 0 0 1px rgba(0, 0, 0, 0.3),
-    0 2rem 4rem rgba(0, 0, 0, 0.4),
-    0 0 3rem var(--accent-glow);
-}
-
-.product__mockup::before {
-  content: "";
-  position: absolute;
-  top: 0.875rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 4rem;
-  height: 0.375rem;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 999px;
-  z-index: 2;
 }
 
 .product__mockup img {
   width: 100%;
-  border-radius: 1.75rem;
-  aspect-ratio: 390 / 844;
-  object-fit: cover;
-  background: var(--bg-elevated);
+  height: auto;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.35);
 }
 
 .product__content {
