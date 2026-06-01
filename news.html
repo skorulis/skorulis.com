@@ -1,0 +1,22 @@
+---
+layout: default
+title: News
+group: navigation
+order: 0
+---
+
+<div class="main-content">
+
+	<div class="news-list">
+		{% for news in site.data.news %}
+			<div class="news-item">
+				<h3 class='news-title'>{{news.title}}</h3> 
+				<h6 class='news-date'>{{news.date}}</h6>
+				<p>{{news.text}}</p>
+			</div>				
+		{% endfor %}
+	</div>
+
+</div>
+
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="a+QP82sWgB7Rjll6/fvhHg" async></script>

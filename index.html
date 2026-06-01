@@ -1,22 +1,134 @@
 ---
-layout: default
-title: Home
-group: navigation
-order: 0
+layout: null
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>skorulis — Focused apps</title>
+  <meta name="description" content="skorulis builds focused, beautifully crafted apps. Explore Straight Facts daily trivia and Exercise Tree, a workout companion in development.">
+  <meta property="og:title" content="skorulis — Focused apps">
+  <meta property="og:description" content="Focused apps, crafted with care. Daily trivia with Straight Facts and structured fitness with Exercise Tree.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://skorulis.com/">
+  <meta property="og:image" content="https://skorulis.com/assets/landing/straight-facts-screenshot.png">
+  <link rel="icon" type="image/png" href="/assets/favicon/icon-64.png">
+  <link rel="stylesheet" href="/css/landing.css">
+</head>
+<body>
+  <div class="bg-mesh" aria-hidden="true">
+    <div class="orb orb--1"></div>
+  </div>
 
-<div class="main-content">
+  <header class="site-nav">
+    <a class="site-nav__brand" href="/">skorulis</a>
+    <nav aria-label="Site">
+      <ul class="site-nav__links">
+        <li><a href="/news.html">News</a></li>
+        <li><a href="/portfolio/">Portfolio</a></li>
+        <li><a href="http://blog.skorulis.com/">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
 
-	<div class="news-list">
-		{% for news in site.data.news %}
-			<div class="news-item">
-				<h3 class='news-title'>{{news.title}}</h3> 
-				<h6 class='news-date'>{{news.date}}</h6>
-				<p>{{news.text}}</p>
-			</div>				
-		{% endfor %}
-	</div>
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <h1 id="hero-heading" class="hero__wordmark" aria-label="skorulis">
+        <span class="hero__letter">s</span><span class="hero__letter">k</span><span class="hero__letter">o</span><span class="hero__letter">r</span><span class="hero__letter">u</span><span class="hero__letter">l</span><span class="hero__letter">i</span><span class="hero__letter">s</span>
+      </h1>
+      <p class="hero__tagline">Focused apps, crafted with care.</p>
+      <p class="hero__sub">Independent software for curiosity, clarity, and movement.</p>
+      <a class="hero__scroll" href="#products" aria-label="Scroll to products">
+        <span>Explore</span>
+        <span class="hero__scroll-chevron" aria-hidden="true"></span>
+      </a>
+    </section>
 
-</div>
+    <div id="products" class="products">
+      <article class="product reveal" aria-labelledby="straight-facts-heading">
+        <div class="product__inner">
+          <div class="product__visual reveal reveal-delay-1">
+            <div class="product__mockup">
+              <img
+                src="/assets/landing/straight-facts-screenshot.png"
+                width="390"
+                height="844"
+                alt="Straight Facts app showing a daily fact in a calm, minimal layout."
+                loading="eager"
+                decoding="async"
+              >
+            </div>
+          </div>
+          <div class="product__content reveal reveal-delay-2">
+            <span class="product__badge product__badge--live">Available now</span>
+            <h2 id="straight-facts-heading" class="product__title">Straight Facts</h2>
+            <p class="product__tagline">Zero fluff. Just daily facts.</p>
+            <p class="product__desc">
+              In a world of information overload, Straight Facts delivers clarity. Hand-curated, verified knowledge across science, history, and more — with zero ads and no subscriptions.
+            </p>
+            <ul class="product__features">
+              <li>1,000+ hand-curated facts, manually vetted for accuracy</li>
+              <li>Verified links for deep dives into every topic</li>
+              <li>Minimal, calming design built for focus</li>
+            </ul>
+            <div class="product__cta">
+              <a class="app-store-badge" href="https://apps.apple.com/us/app/straight-facts-daily-trivia/id6767988129" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/landing/download-on-the-app-store.svg" width="120" height="40" alt="Download on the App Store" decoding="async">
+              </a>
+              <a class="btn" href="/straightfacts/">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </article>
 
-<script src="https://analytics.ahrefs.com/analytics.js" data-key="a+QP82sWgB7Rjll6/fvhHg" async></script>
+      <article class="product product--reverse reveal" aria-labelledby="exercise-tree-heading">
+        <div class="product__inner">
+          <div class="product__visual reveal reveal-delay-1">
+            <div class="product__mockup">
+              <img
+                src="/assets/landing/exercise-tree-screenshot.png"
+                width="390"
+                height="844"
+                alt="Exercise Tree app preview placeholder showing a fitness workout interface."
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+          </div>
+          <div class="product__content reveal reveal-delay-2">
+            <span class="product__badge product__badge--dev">In development</span>
+            <h2 id="exercise-tree-heading" class="product__title">Exercise Tree</h2>
+            <p class="product__tagline">Your workouts, structured and clear.</p>
+            <p class="product__desc">
+              A fitness companion built around clarity and progression. Browse a structured exercise library, build routines that fit your goals, and track your training with a clean, focused interface.
+            </p>
+            <ul class="product__features">
+              <li>Organised exercise library with clear movement categories</li>
+              <li>Build and save custom workout routines</li>
+              <li>Track sets, reps, and progress over time</li>
+            </ul>
+            <div class="product__cta">
+              <a class="btn" href="mailto:skorulis@gmail.com?subject=Exercise%20Tree">Get notified</a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="site-footer__philosophy">Small tools that respect your attention.</p>
+    <ul class="site-footer__links">
+      <li><a href="/news.html">News</a></li>
+      <li><a href="/portfolio/">Portfolio</a></li>
+      <li><a href="http://blog.skorulis.com/">Blog</a></li>
+      <li><a href="/straightfacts/">Straight Facts</a></li>
+    </ul>
+    <p class="site-footer__copy">&copy; 2026 Alex Skorulis</p>
+  </footer>
+
+  <script src="/js/landing.js" defer></script>
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="a+QP82sWgB7Rjll6/fvhHg" async></script>
+</body>
+</html>
