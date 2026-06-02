@@ -2605,6 +2605,8 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 
 .navbar-brand { padding: 5px; padding-left: 10px; padding-right: 10px; }
 
+.navbar-brand img { filter: invert(1); }
+
 .nav li a { font-weight: bold; line-height: 30px; color: #555; font-size: 13pt; border-radius: 0px; }
 
 .nav li.active > a { background-color: #90b8c4; color: #FFF; }

@@ -9,9 +9,7 @@ layout: null
   <link rel="canonical" href="https://www.skorulis.com/about.html">
   <title>About — skorulis</title>
   <meta name="description" content="Alex Skorulis builds focused, beautifully crafted apps including Fact Snack, Max Idle, and Exercise Tree.">
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon/icon-48.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/icon-120.png">
+  {% include favicon.html %}
   <link rel="stylesheet" href="/css/landing.css">
   <script type="application/ld+json">
   {
@@ -35,7 +33,10 @@ layout: null
 </head>
 <body>
   <header class="site-nav">
-    <a class="site-nav__brand" href="/">skorulis</a>
+    <a class="site-nav__brand" href="/">
+      <img class="site-nav__logo" src="/assets/logo.svg" width="28" height="28" alt="" decoding="async">
+      skorulis
+    </a>
     <nav aria-label="Site">
       <ul class="site-nav__links">
         <li><a href="/">Home</a></li>

@@ -21,10 +21,7 @@ layout: null
   <meta name="twitter:title" content="skorulis — Focused apps">
   <meta name="twitter:description" content="Focused apps, crafted with care. Daily trivia, idle games, and fitness tools from skorulis.">
   <meta name="twitter:image" content="https://www.skorulis.com/assets/landing/og-image.png">
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon/icon-48.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/icon-32.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/icon-120.png">
+  {% include favicon.html %}
   <link rel="preload" href="/css/landing.css" as="style">
   <link rel="stylesheet" href="/css/landing.css">
   <script type="application/ld+json">
@@ -36,7 +33,7 @@ layout: null
         "@id": "https://www.skorulis.com/#organization",
         "name": "skorulis",
         "url": "https://www.skorulis.com/",
-        "logo": "https://www.skorulis.com/assets/favicon/icon-120.png",
+        "logo": "https://www.skorulis.com/assets/logo.png",
         "email": "alex@skorulis.com"
       },
       {
@@ -70,7 +67,10 @@ layout: null
   </div>
 
   <header class="site-nav">
-    <a class="site-nav__brand" href="/">skorulis.com</a>
+    <a class="site-nav__brand" href="/">
+      <img class="site-nav__logo" src="/assets/logo.svg" width="28" height="28" alt="" decoding="async">
+      skorulis.com
+    </a>
     <nav aria-label="Site">
       <ul class="site-nav__links">
         <li><a href="/about.html">About</a></li>

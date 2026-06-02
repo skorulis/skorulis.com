@@ -56,6 +56,10 @@ $grey-color-dark:  darken($grey-color, 25%);
   padding:5px;
   padding-left:10px;
   padding-right:10px;
+
+  img {
+    filter: invert(1);
+  }
 }
 
 .nav li a {
