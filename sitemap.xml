@@ -7,6 +7,16 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.skorulis.com/about.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.skorulis.com/contact.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://www.skorulis.com/factsnack/</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>

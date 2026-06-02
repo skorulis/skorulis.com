@@ -6,15 +6,63 @@ layout: null
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://www.skorulis.com/">
   <title>skorulis — Focused apps</title>
   <meta name="description" content="skorulis builds focused, beautifully crafted apps. Fact Snack, Max Idle, and Exercise Tree.">
   <meta property="og:title" content="skorulis — Focused apps">
   <meta property="og:description" content="Focused apps, crafted with care. Daily trivia, idle games, and fitness tools from skorulis.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://skorulis.com/">
-  <meta property="og:image" content="https://skorulis.com/assets/landing/straight-facts-screenshot.png">
-  <link rel="icon" type="image/png" href="/assets/favicon/icon-64.png">
+  <meta property="og:url" content="https://www.skorulis.com/">
+  <meta property="og:image" content="https://www.skorulis.com/assets/landing/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@skorulis">
+  <meta name="twitter:title" content="skorulis — Focused apps">
+  <meta name="twitter:description" content="Focused apps, crafted with care. Daily trivia, idle games, and fitness tools from skorulis.">
+  <meta name="twitter:image" content="https://www.skorulis.com/assets/landing/og-image.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon/icon-48.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/icon-32.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/icon-120.png">
+  <link rel="preload" href="/css/landing.css" as="style">
   <link rel="stylesheet" href="/css/landing.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.skorulis.com/#organization",
+        "name": "skorulis",
+        "url": "https://www.skorulis.com/",
+        "logo": "https://www.skorulis.com/assets/favicon/icon-120.png",
+        "email": "alex@skorulis.com"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.skorulis.com/#website",
+        "url": "https://www.skorulis.com/",
+        "name": "skorulis",
+        "description": "Focused apps, crafted with care.",
+        "publisher": { "@id": "https://www.skorulis.com/#organization" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.skorulis.com/about.html#alex",
+        "name": "Alex Skorulis",
+        "url": "https://www.skorulis.com/about.html",
+        "email": "alex@skorulis.com",
+        "jobTitle": "Independent software developer",
+        "worksFor": { "@id": "https://www.skorulis.com/#organization" },
+        "sameAs": [
+          "https://blog.skorulis.com/",
+          "https://twitter.com/skorulis"
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="bg-mesh" aria-hidden="true">
@@ -22,9 +70,11 @@ layout: null
   </div>
 
   <header class="site-nav">
-    <a class="site-nav__brand" href="/">skorulis</a>
+    <a class="site-nav__brand" href="/">skorulis.com</a>
     <nav aria-label="Site">
       <ul class="site-nav__links">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
         <li><a href="/news.html">News</a></li>
         <li><a href="/portfolio/">Portfolio</a></li>
         <li><a href="https://blog.skorulis.com/">Blog</a></li>
@@ -34,8 +84,8 @@ layout: null
 
   <main>
     <section class="hero" aria-labelledby="hero-heading">
-      <h1 id="hero-heading" class="hero__wordmark" aria-label="skorulis">
-        <span class="hero__letter">s</span><span class="hero__letter">k</span><span class="hero__letter">o</span><span class="hero__letter">r</span><span class="hero__letter">u</span><span class="hero__letter">l</span><span class="hero__letter">i</span><span class="hero__letter">s</span>
+      <h1 id="hero-heading" class="hero__wordmark" aria-label="skorulis.com">
+        <span class="hero__letter">s</span><span class="hero__letter">k</span><span class="hero__letter">o</span><span class="hero__letter">r</span><span class="hero__letter">u</span><span class="hero__letter">l</span><span class="hero__letter">i</span><span class="hero__letter">s</span><span class="hero__letter">.</span><span class="hero__letter">c</span><span class="hero__letter">o</span><span class="hero__letter">m</span>
       </h1>
       <p class="hero__tagline">Focused apps, crafted with care.</p>
       <p class="hero__sub">Independent software for curiosity, clarity, and movement.</p>
@@ -74,7 +124,7 @@ layout: null
             </ul>
             <div class="product__cta">
               <a class="app-store-badge" href="https://apps.apple.com/us/app/straight-facts-daily-trivia/id6767988129" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/landing/download-on-the-app-store.svg" width="120" height="40" alt="Download on the App Store" decoding="async">
+                <img src="/assets/landing/download-on-the-app-store.svg" width="120" height="40" alt="Download on the App Store" loading="lazy" decoding="async">
               </a>
               <a class="btn" href="/factsnack/">Learn more</a>
             </div>
@@ -101,7 +151,7 @@ layout: null
             <h2 id="max-idle-heading" class="product__title">Max Idle</h2>
             <p class="product__tagline">Idle time, multiplied.</p>
             <p class="product__desc">
-            	An idle game that is actively trying to get you to go and do something else. I'm still not sure if this is a joke
+              An idle game that is actively trying to get you to go and do something else. I'm still not sure if this is a joke
             </p>
             <ul class="product__features">
               <li>Earn real time and add multipliers to get idle time</li>
@@ -123,7 +173,7 @@ layout: null
                 src="/assets/landing/exercise-tree-screenshot.png"
                 width="390"
                 height="844"
-                alt="Exercise Tree app preview placeholder showing a fitness workout interface."
+                alt="Exercise Tree app showing a fitness workout progression interface."
                 loading="lazy"
                 decoding="async"
               >
@@ -134,11 +184,11 @@ layout: null
             <h2 id="exercise-tree-heading" class="product__title">Exercise Tree</h2>
             <p class="product__tagline">Start easy and build up</p>
             <p class="product__desc">
-              A fitness companion built around progression. Pick what you want to accomplish and work through the prerequisits.
+              A fitness companion built around progression. Pick what you want to accomplish and work through the prerequisites.
             </p>
             <ul class="product__features">
               <li>Organised exercise library with clear movement categories</li>
-			  <li>Progression from easy to expert</li>
+              <li>Progression from easy to expert</li>
               <li>Explanation videos for each exercise</li>
             </ul>
           </div>
@@ -150,13 +200,16 @@ layout: null
   <footer class="site-footer">
     <p class="site-footer__philosophy">Small tools that respect your attention.</p>
     <ul class="site-footer__links">
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/factsnack/privacy.html">Privacy</a></li>
       <li><a href="/news.html">News</a></li>
       <li><a href="/portfolio/">Portfolio</a></li>
       <li><a href="https://blog.skorulis.com/">Blog</a></li>
       <li><a href="/factsnack/">Fact Snack</a></li>
       <li><a href="https://max-idle.com/">Max Idle</a></li>
     </ul>
-    <p class="site-footer__copy">&copy; 2026 Alex Skorulis</p>
+    <p class="site-footer__copy">&copy; 2026 <a href="/about.html">Alex Skorulis</a></p>
   </footer>
 
   <script src="/js/landing.js" defer></script>

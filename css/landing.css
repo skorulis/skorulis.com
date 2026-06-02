@@ -229,6 +229,9 @@ body.loaded .hero__letter:nth-child(6) { transition-delay: 0.3s; }
 body.loaded .hero__letter:nth-child(7) { transition-delay: 0.35s; }
 body.loaded .hero__letter:nth-child(8) { transition-delay: 0.4s; }
 body.loaded .hero__letter:nth-child(9) { transition-delay: 0.45s; }
+body.loaded .hero__letter:nth-child(10) { transition-delay: 0.5s; }
+body.loaded .hero__letter:nth-child(11) { transition-delay: 0.55s; }
+body.loaded .hero__letter:nth-child(12) { transition-delay: 0.6s; }
 
 .hero__tagline {
   margin: 0 0 0.75rem;

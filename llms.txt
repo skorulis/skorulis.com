@@ -1,0 +1,18 @@
+# skorulis
+
+> Independent software for curiosity, clarity, and movement. Focused apps, crafted with care.
+
+## Pages
+
+- [Home](https://www.skorulis.com/): Product overview for Fact Snack, Max Idle, and Exercise Tree
+- [About](https://www.skorulis.com/about.html): Who builds skorulis
+- [Contact](https://www.skorulis.com/contact.html): How to reach Alex Skorulis
+- [News](https://www.skorulis.com/news.html): Product and site updates
+- [Portfolio](https://www.skorulis.com/portfolio/): Past projects and experiments
+- [Blog](https://blog.skorulis.com/): Long-form writing
+
+## Apps
+
+- [Fact Snack](https://www.skorulis.com/factsnack/): Daily bite-sized facts (iOS)
+- [Max Idle](https://max-idle.com/): Idle game that encourages you to step away
+- [Fact Snack privacy policy](https://www.skorulis.com/factsnack/privacy.html): App privacy and data handling
