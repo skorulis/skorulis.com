@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /legal/
+
+Sitemap: https://www.skorulis.com/sitemap.xml
