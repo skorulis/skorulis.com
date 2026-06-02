@@ -746,24 +746,6 @@ body.loaded .hero__visual {
   height: 1.125rem;
 }
 
-.site-footer__social a.site-footer__badge {
-  width: auto;
-  height: auto;
-  border-radius: 0;
-  background: transparent;
-  border: none;
-}
-
-.site-footer__social a.site-footer__badge:hover {
-  background: transparent;
-}
-
-.site-footer__social a.site-footer__badge img {
-  display: block;
-  height: 2.25rem;
-  width: auto;
-}
-
 .site-footer__links {
   display: flex;
   flex-wrap: wrap;
