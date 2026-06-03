@@ -1,5 +1,10 @@
 [
 	{
+		"title": "Site refresh",
+		"date": "04-06-2026 10:00",
+		"text": "I've been redesigning the <a href=\"/\">home page</a> and the <a href=\"/factsnack/\">Fact Snack</a> page. The news page is staying as-is for now because I barely touch it anyway"
+	},
+	{
 		"title": "<a href=\"https://apps.apple.com/us/app/straight-facts-daily-trivia/id6767988129\">Fact Snack</a>",
 		"date": "15-05-2026 09:00",
 		"text": "Since I love facts I've put together an app called Fact Snack. A simple and minimal way to get bite sized fact content"
