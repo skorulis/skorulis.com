@@ -8,9 +8,9 @@ layout: null
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="https://www.skorulis.com/">
   <title>skorulis — Focused apps</title>
-  <meta name="description" content="skorulis builds focused, beautifully crafted apps. Fact Snack, Max Idle, and Exercise Tree.">
+  <meta name="description" content="skorulis builds focused, beautifully crafted apps. Fact Snack, Joke Snack, Max Idle, and Exercise Tree.">
   <meta property="og:title" content="skorulis — Focused apps">
-  <meta property="og:description" content="Focused apps, crafted with care. Daily trivia, idle games, and fitness tools from skorulis.">
+  <meta property="og:description" content="Focused apps, crafted with care. Daily trivia, daily jokes, idle games, and fitness tools from skorulis.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.skorulis.com/">
   <meta property="og:image" content="https://www.skorulis.com/assets/landing/og-image.png">
@@ -19,7 +19,7 @@ layout: null
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@skorulis">
   <meta name="twitter:title" content="skorulis — Focused apps">
-  <meta name="twitter:description" content="Focused apps, crafted with care. Daily trivia, idle games, and fitness tools from skorulis.">
+  <meta name="twitter:description" content="Focused apps, crafted with care. Daily trivia, daily jokes, idle games, and fitness tools from skorulis.">
   <meta name="twitter:image" content="https://www.skorulis.com/assets/landing/og-image.png">
   {% include favicon.html %}
   <link rel="preload" href="/css/landing.css" as="style">
@@ -118,7 +118,41 @@ layout: null
         </div>
       </article>
 
-      <article class="product product--reverse reveal" aria-labelledby="max-idle-heading">
+      <article class="product product--reverse reveal" aria-labelledby="joke-snack-heading">
+        <div class="product__inner">
+          <div class="product__visual reveal reveal-delay-1">
+            <div class="product__mockup">
+              <img
+                src="/assets/landing/joke-snack-screenshot.png"
+                width="1470"
+                height="3000"
+                alt="Joke Snack app showing a daily joke with floating laughing emoji confetti."
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+          </div>
+          <div class="product__content reveal reveal-delay-2">
+            <span class="product__badge product__badge--soon">Coming soon</span>
+            <h2 id="joke-snack-heading" class="product__title">Joke Snack</h2>
+            <p class="product__tagline">Daily bite sized jokes.</p>
+            <p class="product__desc">
+              Your daily dose of laughter. Hand-curated jokes with vibrant themes — tap to reveal the punchline, share with friends, zero ads and no subscriptions.
+            </p>
+            <ul class="product__features">
+              <li>A fresh joke every day with tap-to-reveal punchlines</li>
+              <li>Sunbursts, emoji confetti, and abstract backgrounds</li>
+              <li>Save, copy, and share to Instagram and more</li>
+            </ul>
+            <div class="product__cta">
+              <span class="coming-soon-badge" role="status">Coming soon</span>
+              <a class="btn" href="/jokesnack/">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="product reveal" aria-labelledby="max-idle-heading">
         <div class="product__inner">
           <div class="product__visual reveal reveal-delay-1">
             <div class="product__mockup">
@@ -151,7 +185,7 @@ layout: null
         </div>
       </article>
 
-      <article class="product reveal" aria-labelledby="exercise-tree-heading">
+      <article class="product product--reverse reveal" aria-labelledby="exercise-tree-heading">
         <div class="product__inner">
           <div class="product__visual reveal reveal-delay-1">
             <div class="product__mockup">
@@ -193,6 +227,7 @@ layout: null
       <li><a href="/portfolio/">Portfolio</a></li>
       <li><a href="https://blog.skorulis.com/">Blog</a></li>
       <li><a href="/factsnack/">Fact Snack</a></li>
+      <li><a href="/jokesnack/">Joke Snack</a></li>
       <li><a href="https://max-idle.com/">Max Idle</a></li>
     </ul>
     <p class="site-footer__copy">&copy; 2026 <a href="/about.html">Alex Skorulis</a></p>

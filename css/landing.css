@@ -403,6 +403,27 @@ body.loaded .hero__scroll {
   border: 1px solid rgba(196, 184, 150, 0.25);
 }
 
+.product__badge--soon {
+  color: #ffb88a;
+  background: rgba(255, 107, 53, 0.15);
+  border: 1px solid rgba(255, 107, 53, 0.35);
+}
+
+.coming-soon-badge {
+  display: inline-block;
+  padding: 0.55rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #1a2430;
+  background: linear-gradient(135deg, #ffd23f 0%, #ff6b35 100%);
+  border-radius: 999px;
+  cursor: default;
+  user-select: none;
+  box-shadow: 0 2px 8px rgba(255, 107, 53, 0.25);
+}
+
 .product__title {
   margin: 0 0 0.5rem;
   font-size: clamp(1.75rem, 4vw, 2.25rem);
