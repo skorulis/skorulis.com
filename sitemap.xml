@@ -40,22 +40,22 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.skorulis.com/ios/</loc>
+    <loc>https://www.skorulis.com/ios</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.skorulis.com/android/</loc>
+    <loc>https://www.skorulis.com/android</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.skorulis.com/html/</loc>
+    <loc>https://www.skorulis.com/html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.skorulis.com/flash/</loc>
+    <loc>https://www.skorulis.com/flash</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
