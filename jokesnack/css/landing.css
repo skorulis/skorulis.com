@@ -178,6 +178,46 @@ video {
   }
 }
 
+.site-nav__cta .app-store-badge img {
+  height: 36px;
+}
+
+@media (min-width: 48rem) {
+  .site-nav__cta .app-store-badge img {
+    height: 40px;
+  }
+}
+
+/* ── App Store badge ── */
+
+.app-store-badge {
+  display: inline-block;
+  line-height: 0;
+  text-decoration: none;
+  border-radius: 0.35rem;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.app-store-badge:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.app-store-badge:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
+}
+
+.app-store-badge img {
+  display: block;
+  height: 48px;
+  width: auto;
+}
+
+.app-store-badge--lg img {
+  height: 54px;
+}
+
 /* ── Coming soon badge ── */
 
 .coming-soon-badge {
