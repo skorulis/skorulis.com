@@ -8,9 +8,9 @@ layout: null
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="https://www.skorulis.com/">
   <title>skorulis — Focused apps</title>
-  <meta name="description" content="skorulis builds focused, beautifully crafted apps. Fact Snack, Joke Snack, Max Idle, and Exercise Tree.">
+  <meta name="description" content="skorulis builds focused, beautifully crafted apps. DuskRoute, Fact Snack, Joke Snack, Max Idle, and Exercise Tree.">
   <meta property="og:title" content="skorulis — Focused apps">
-  <meta property="og:description" content="Focused apps, crafted with care. Daily trivia, daily jokes, idle games, and fitness tools from skorulis.">
+  <meta property="og:description" content="Focused apps, crafted with care. Happy hour deals, daily trivia, daily jokes, idle games, and fitness tools from skorulis.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.skorulis.com/">
   <meta property="og:image" content="https://www.skorulis.com/assets/landing/og-image.png">
@@ -19,7 +19,7 @@ layout: null
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@skorulis">
   <meta name="twitter:title" content="skorulis — Focused apps">
-  <meta name="twitter:description" content="Focused apps, crafted with care. Daily trivia, daily jokes, idle games, and fitness tools from skorulis.">
+  <meta name="twitter:description" content="Focused apps, crafted with care. Happy hour deals, daily trivia, daily jokes, idle games, and fitness tools from skorulis.">
   <meta name="twitter:image" content="https://www.skorulis.com/assets/landing/og-image.png">
   {% include favicon.html %}
   <link rel="preload" href="/css/landing.css" as="style">
@@ -82,7 +82,40 @@ layout: null
     </section>
 
     <div id="products" class="products">
-      <article class="product reveal" aria-labelledby="fact-snack-heading">
+      <article class="product reveal" aria-labelledby="dusk-route-heading">
+        <div class="product__inner">
+          <div class="product__visual reveal reveal-delay-1">
+            <div class="product__mockup">
+              <img
+                src="/assets/landing/dusk-route.png"
+                width="1359"
+                height="2736"
+                alt="DuskRoute showing happy hour filters and popular Sydney suburbs with venue and deal counts."
+                loading="eager"
+                decoding="async"
+              >
+            </div>
+          </div>
+          <div class="product__content reveal reveal-delay-2">
+            <span class="product__badge product__badge--live">Available now</span>
+            <h2 id="dusk-route-heading" class="product__title">DuskRoute</h2>
+            <p class="product__tagline">Your evening starts here.</p>
+            <p class="product__desc">
+              Your map to the happy hours that set the night in motion. Filter by when, where, and what — then browse deals across Sydney suburbs.
+            </p>
+            <ul class="product__features">
+              <li>Filter deals by time, place, and type</li>
+              <li>Browse popular suburbs with venue and deal counts</li>
+              <li>Save favourites for your next night out</li>
+            </ul>
+            <div class="product__cta">
+              <a class="btn" href="https://duskroute.com/" target="_blank" rel="noopener noreferrer">Explore</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="product product--reverse reveal" aria-labelledby="fact-snack-heading">
         <div class="product__inner">
           <div class="product__visual reveal reveal-delay-1">
             <div class="product__mockup">
@@ -91,7 +124,7 @@ layout: null
                 width="390"
                 height="844"
                 alt="Fact Snack app showing a daily fact in a calm, minimal layout."
-                loading="eager"
+                loading="lazy"
                 decoding="async"
               >
             </div>
@@ -118,7 +151,7 @@ layout: null
         </div>
       </article>
 
-      <article class="product product--reverse reveal" aria-labelledby="joke-snack-heading">
+      <article class="product reveal" aria-labelledby="joke-snack-heading">
         <div class="product__inner">
           <div class="product__visual reveal reveal-delay-1">
             <div class="product__mockup">
@@ -154,7 +187,7 @@ layout: null
         </div>
       </article>
 
-      <article class="product reveal" aria-labelledby="max-idle-heading">
+      <article class="product product--reverse reveal" aria-labelledby="max-idle-heading">
         <div class="product__inner">
           <div class="product__visual reveal reveal-delay-1">
             <div class="product__mockup">
@@ -187,7 +220,7 @@ layout: null
         </div>
       </article>
 
-      <article class="product product--reverse reveal" aria-labelledby="exercise-tree-heading">
+      <article class="product reveal" aria-labelledby="exercise-tree-heading">
         <div class="product__inner">
           <div class="product__visual reveal reveal-delay-1">
             <div class="product__mockup">
@@ -228,6 +261,7 @@ layout: null
       <li><a href="/news.html">News</a></li>
       <li><a href="/portfolio/">Portfolio</a></li>
       <li><a href="https://blog.skorulis.com/">Blog</a></li>
+      <li><a href="https://duskroute.com/">DuskRoute</a></li>
       <li><a href="/factsnack/">Fact Snack</a></li>
       <li><a href="/jokesnack/">Joke Snack</a></li>
       <li><a href="https://max-idle.com/">Max Idle</a></li>
